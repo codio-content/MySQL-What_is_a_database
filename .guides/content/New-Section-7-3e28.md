@@ -1,0 +1,1 @@
+Sometimes, table records are related to other table records linked together with a _key_. 

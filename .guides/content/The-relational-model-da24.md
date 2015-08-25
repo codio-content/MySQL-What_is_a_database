@@ -15,5 +15,5 @@ A __row__ contains a collection of data related to that table’s single item.
 
 --- 
 
-Sometimes, table records are related to other table records linked together with a _key_. 
-Head to the next section.
+Feel comfortable with the relational model concepts?
+Head to the next section and accept the challenge!

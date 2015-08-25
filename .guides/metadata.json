@@ -28,12 +28,93 @@
    "reset": []
   },
   {
-   "id": "f6f8112d-f348-3da9-f78c-b71e26fe6785",
-   "title": "The Primary Key",
+   "id": "f5d3697b-387b-3df-b35c-3a98eea88c4e",
+   "title": "Challenge",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/The-Primary-Key-f6f8.md",
+   "content-file": ".guides/content/Challenge-f5d3.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "f6f8112d-f348-3da9-f78c-b71e26fe6785",
+   "title": "MySQL",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/MySQL-f6f8.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "acaebf6-aaab-5864-81ec-73b9733cb9e",
+   "title": "Listing databases",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Listing-databases-acae.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "6009e2d0-6fcb-c9a0-8181-22e6675cde0",
+   "title": "Displaying tables",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Displaying-tables-6009.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "11957263-3d60-beb8-53f2-7274fcf06e9c",
+   "title": "Clearing the terminal",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Clearing-the-terminal-1195.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "5f463420-3ff6-ce0b-9c52-cfebc3fb110d",
+   "title": "Displaying data",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Displaying-data-5f46.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "a336f7d2-1522-a4ca-109c-f85e70f5cb9a",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-a336.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "715799c3-82f8-40dd-70fe-12fc2f5e139d",
+   "title": "Selecting columns",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-11-7157.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "3e28ce7e-3f3d-1305-9b8c-23637155fa42",
+   "title": "Primary key (draft)",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Primary-key--draft--3e28.md",
    "chapter": false,
    "reset": []
   }
