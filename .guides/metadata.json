@@ -1,0 +1,44 @@
+{
+ "sections": [
+  {
+   "id": "78446437-3ab8-a6a2-f5c3-19a14ccb8847",
+   "title": "Introduction to SQL",
+   "files": [
+    {
+     "path": "#terminal: ",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Introduction-to-SQL-7844.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "da24d1a-40ec-829e-65c0-5c6f2db0db0e",
+   "title": "The relational model",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-relational-model-da24.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "f6f8112d-f348-3da9-f78c-b71e26fe6785",
+   "title": "The Primary Key",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-Primary-Key-f6f8.md",
+   "chapter": false,
+   "reset": []
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": ""
+}
