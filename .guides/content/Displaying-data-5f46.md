@@ -1,4 +1,6 @@
-Now that we know that there are 2 existing tables inside the `people` database, let's _SELECT_ some records from one of them, the `names` table.
+Now that we know that there are 2 existing tables inside the `people` database, let's _SELECT_ some records from one of them: 
+
+The `names` table.
 
 Click on your terminal window and execute the following SQL statement:
 
@@ -26,12 +28,13 @@ A SQL statement is a set of instructions that are chained together in order for 
 
 _SQL statements_ often begin with a verb.
 
-By executing the `SELECT * FROM names;` SQL statement we are:
+By executing the `SELECT * FROM names;` SQL statement:
 
-- *SELECT*ing or requesting the data from all the table columns
+- We are *SELECT*ing or requesting the data from all the table columns
 - The `*` symbol indicates _all_ data from those columns
 - The `FROM` modifier indicates the place where the data is going to be taken from. In this case, the `names` table
 
 --- 
 Queries for individual table columns can be performed too by specifying the attribute or column name in the statement.
+
 But first, complete the challenge in the next section!

@@ -102,9 +102,20 @@
    "id": "715799c3-82f8-40dd-70fe-12fc2f5e139d",
    "title": "Selecting columns",
    "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-11-7157.md",
+   "content-file": ".guides/content/Selecting-columns-7157.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "31bf5d6-26ce-4426-b701-fb2d6daef9de",
+   "title": "Limiting queries",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-12-31bf.md",
    "chapter": false,
    "reset": []
   },
