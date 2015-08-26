@@ -125,8 +125,229 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-13-9d4b.md",
+   "content-file": ".guides/content/Ordering-table-queries-9d4b.md",
    "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "ecf1eca8-e15f-11ed-bfd7-3d506d27a1a0",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-16-ecf1.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "77df90e0-a13a-4ac7-b7dd-8388e705c655",
+   "title": "Sourcing SQL files",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Sourcing-SQL-files-77df.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "56d04ce2-ecfe-5e4a-ff-4183f8903fe5",
+   "title": "Query operators",
+   "files": [
+    {
+     "path": "people.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Query-operators-56d0.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "3e28ce7e-3f3d-1305-9b8c-23637155fa42",
+   "title": "Primary key (draft)",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Primary-key--draft--3e28.md",
+   "chapter": false,
+   "reset": []
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": ""
+}{
+ "sections": [
+  {
+   "id": "78446437-3ab8-a6a2-f5c3-19a14ccb8847",
+   "title": "Introduction to SQL",
+   "files": [
+    {
+     "path": "#terminal: ",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Introduction-to-SQL-7844.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "da24d1a-40ec-829e-65c0-5c6f2db0db0e",
+   "title": "The relational model",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-relational-model-da24.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "f5d3697b-387b-3df-b35c-3a98eea88c4e",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-f5d3.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "f6f8112d-f348-3da9-f78c-b71e26fe6785",
+   "title": "MySQL",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/MySQL-f6f8.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "acaebf6-aaab-5864-81ec-73b9733cb9e",
+   "title": "Listing databases",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Listing-databases-acae.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "6009e2d0-6fcb-c9a0-8181-22e6675cde0",
+   "title": "Displaying tables",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Displaying-tables-6009.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "11957263-3d60-beb8-53f2-7274fcf06e9c",
+   "title": "Clearing the terminal",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Clearing-the-terminal-1195.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "5f463420-3ff6-ce0b-9c52-cfebc3fb110d",
+   "title": "Displaying data",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Displaying-data-5f46.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "a336f7d2-1522-a4ca-109c-f85e70f5cb9a",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-a336.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "715799c3-82f8-40dd-70fe-12fc2f5e139d",
+   "title": "Selecting columns",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Selecting-columns-7157.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "31bf5d6-26ce-4426-b701-fb2d6daef9de",
+   "title": "Limiting queries",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Limiting-queries-31bf.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "9d4b58c2-5aa2-5607-f9f1-633836d35bf6",
+   "title": "Ordering table queries",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Ordering-table-queries-9d4b.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "ecf1eca8-e15f-11ed-bfd7-3d506d27a1a0",
+   "title": "New Section 16",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-16-ecf1.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "77df90e0-a13a-4ac7-b7dd-8388e705c655",
+   "title": "Sourcing SQL files",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Sourcing-SQL-files-77df.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "56d04ce2-ecfe-5e4a-ff-4183f8903fe5",
+   "title": "Query operators",
+   "files": [
+    {
+     "path": "people.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Query-operators-56d0.md",
+   "chapter": true,
    "reset": []
   },
   {
