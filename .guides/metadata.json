@@ -115,7 +115,17 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-12-31bf.md",
+   "content-file": ".guides/content/Limiting-queries-31bf.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "9d4b58c2-5aa2-5607-f9f1-633836d35bf6",
+   "title": "Ordering table queries",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-13-9d4b.md",
    "chapter": false,
    "reset": []
   },
