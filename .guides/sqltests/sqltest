@@ -1,0 +1,12 @@
+#!/bin/bash
+# chmod files
+
+arg=$1
+
+file_count=$(ls /home/codio/workspace/.guides/sqltests/*.sh | wc -l)  
+if [[ -f /home/codio/workspace/.guides/sqltests/workspace-reset.sh ]]; then
+    file_count=$(( file_count - 1 ))
+fi
+for (( i = 1; i <= $file_count; i++ )); do                                                                                                 
+        chmod +x "/home/codio/workspace/.guides/sqltests/sql-$arg-$i.sh"                                                                     
+done
