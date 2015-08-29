@@ -27,7 +27,7 @@ function reset_workspace {
   rm -r ${WORKSPACE}config.php
   rm -r ${WORKSPACE}index.php
   rm -r ${WORKSPACE}README.md
-  > ~/.bash_history
+  echo ' ' > ~/.mysql_history
 	echo "Reseting project files and directories"
 	sleep 2
 	init_workspace

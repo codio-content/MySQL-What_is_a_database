@@ -24,3 +24,5 @@ mysql> SELECT email,country FROM basic_info ORDER BY email ASC LIMIT 7;
 +---------------------------------------+-------------+ 
 7 rows in set (0.00 sec) 
 ```
+
+Do you have what it takes to complete a challenge on ordering and limiting database queries? Go to the next section.

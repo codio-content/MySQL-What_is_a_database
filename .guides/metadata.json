@@ -5,7 +5,7 @@
    "title": "Introduction to SQL",
    "files": [
     {
-     "path": "#terminal: ",
+     "path": "#terminal: sqltest 1 | clear",
      "panel": 0,
      "action": "open"
     }
@@ -92,7 +92,18 @@
   {
    "id": "b6798a7e-2857-457c-ce61-46cb2601ade8",
    "title": "Challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-b679.md",
@@ -211,7 +222,7 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-20-dbe1.md",
+   "content-file": ".guides/content/That-s-all-folks-dbe1.md",
    "chapter": false,
    "reset": []
   }
