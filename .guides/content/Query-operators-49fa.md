@@ -9,7 +9,7 @@ An advantage of writing SQL code in a `*.sql` file is that we can use new lines 
 Let's _SELECT_ from the _names_ table only the _SURNAME_ that is equal to the text string, _Steele_ (remember that text strings are one of the many datatypes SQL recognizes):
 
 ```
-# Inside people.sql file:
+# Inside the people.sql file:
 
 SELECT * FROM names 
 WHERE SURNAME='Steele';

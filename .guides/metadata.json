@@ -176,7 +176,13 @@
   {
    "id": "49fa331b-6bf4-28e7-daf5-1e86fdd13e33",
    "title": "Query operators",
-   "files": [],
+   "files": [
+    {
+     "path": "people.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
    "layout": "",
    "path": [],
    "type": "markdown",
@@ -197,12 +203,43 @@
   {
    "id": "eb557ecf-57b0-f083-4269-814995a319b",
    "title": "Sorting rows",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "birthdays.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
    "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Sorting-rows-eb55.md",
    "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "d7d267f0-8480-b98-afc4-2168fb0be9ea",
+   "title": "Challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "people-test.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-d7d2.md",
+   "chapter": false,
    "reset": []
   },
   {
@@ -219,12 +256,39 @@
   {
    "id": "37551cf3-f1a3-6e00-867a-42afa631e166",
    "title": "AND, OR operators",
-   "files": [],
+   "files": [
+    {
+     "path": "birthday-ids.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
    "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/AND--OR-operators-3755.md",
    "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "e722a47b-8e70-160-fe70-f48054ff82d6",
+   "title": "Challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-e722.md",
+   "chapter": false,
    "reset": []
   },
   {

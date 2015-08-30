@@ -3,6 +3,7 @@ Click on it and type a _SELECT_ statement that gets only the rows that contain b
 
 ```
 # In your birthdays.sql file
+
 SELECT * FROM basic_info 
 WHERE birthday > '2016' 
 ORDER BY birthday;

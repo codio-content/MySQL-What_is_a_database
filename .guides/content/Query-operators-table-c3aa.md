@@ -16,4 +16,4 @@ Here's a detailed table of the available operators and their descriptions:
 
 How about getting some _DATE_ datatype from the `basic_info` table of the `people` database?
 
-All right! Get right to get your hands on your code in the next section.
+All right! Get your hands to code in the next section.
