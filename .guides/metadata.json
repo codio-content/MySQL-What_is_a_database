@@ -134,7 +134,18 @@
   {
    "id": "c0f654c6-c62a-b95e-90e8-e6af210f8de9",
    "title": "Ordering table queries",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Ordering-table-queries-c0f6.md",
