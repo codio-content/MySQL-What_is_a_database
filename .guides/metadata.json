@@ -279,7 +279,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: mysql",
+     "path": "query-operators.sql",
      "panel": 0,
      "action": "open"
     }
