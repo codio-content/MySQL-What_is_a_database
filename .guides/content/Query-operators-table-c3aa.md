@@ -12,7 +12,9 @@ Here's a detailed table of the available operators and their descriptions:
 | <=       | Less than or equal                                                          |
 | BETWEEN  | Between an inclusive range                                                  |
 | LIKE     | Search for a pattern                                                        |
-| IN       | To specify multiple possible values for a column                            |
+| AND      | Displays a record if both the first condition AND the second condition are true |
+| OR       | Displays a record if either the first condition OR the second condition is true |
+
 
 How about getting some _DATE_ datatype from the `basic_info` table of the `people` database by using the _greater than_ query operator?
 

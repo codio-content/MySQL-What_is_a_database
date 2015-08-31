@@ -1,5 +1,5 @@
 A `birthdays.sql` file has been created and opened for you.
-Click on it and type a _SELECT_ statement that gets only the rows that contain birthdays for 2016 plus sorting them by date order:
+Click on it and type a _SELECT * FROM_ statement that gets only the rows that contain birthdays for 2016 plus sorting them by date order:
 
 ```
 --- In your birthdays.sql file

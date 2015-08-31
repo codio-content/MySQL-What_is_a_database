@@ -26,13 +26,13 @@ mysql> SELECT * FROM names;
 
 A SQL statement is a set of instructions that are chained together in order for the program to understand and run a request.
 
-_SQL statements_ often begin with a verb.
+_SQL statements_ often begin with a verb (also know as keyword) and are followed by clauses, like the _FROM_ clause.
 
 By executing the `SELECT * FROM names;` SQL statement:
 
 - We are *SELECT*ing or requesting the data from all the table columns
 - The `*` symbol indicates _all_ data from those columns
-- The `FROM` modifier indicates the place where the data is going to be taken from. In this case, the `names` table
+- The `FROM` clause indicates the place where the data is going to be taken from. In this case, the `names` table
 
 --- 
 Queries for individual table columns can be performed too by specifying the attribute or column name in the statement.

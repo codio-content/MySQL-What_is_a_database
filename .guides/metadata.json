@@ -336,7 +336,16 @@
    "title": "Challenge",
    "files": [
     {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
      "path": "query-operators.sql",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: mysql",
      "panel": 0,
      "action": "open"
     }
@@ -351,7 +360,13 @@
   {
    "id": "dbe1139e-de62-5f81-8c9c-2d4ef2331060",
    "title": "That's all folks",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/That-s-all-folks-dbe1.md",

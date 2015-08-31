@@ -1,15 +1,17 @@
 {Check It!|assessment}(test-480230319)
 
 |||guidance
-### Correct answer: 
+### Correct answers:
 
-Inside the `query-operators.sql` file:
+1. Inside the `query-operators.sql` file:
 
 ```
 SELECT * FROM basic_info 
-WHERE birthday <= '2016'
+WHERE birthday <= 2016
 AND id BETWEEN 1 AND 5
 ORDER BY id DESC;
 ```
+
+2. `SELECT id,SURNAME FROM names ORDER BY SURNAME DESC;`
 
 |||

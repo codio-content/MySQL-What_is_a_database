@@ -20,7 +20,7 @@ categories:
    ...
 ```
 
-For example, to get information about the `SELECT` _data manipulation statement_ you'd type: 
+For example, to get information about the `SELECT` _data manipulation keyword_ you'd type: 
 
 ```
 mysql> help Data Manipulation;  # Works in lowercase too

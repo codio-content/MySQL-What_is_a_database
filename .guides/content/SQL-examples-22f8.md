@@ -30,6 +30,6 @@ SELECT * FROM names;
 
 ---
 
-Let's add up to the `SELECT` data manipulation statement by adding some SQL clauses and operators such as: `WHERE`, `ORDER BY`, `BETWEEN`, `>`, `=`
+Let's add up to the `SELECT` data manipulation keyword by adding some SQL clauses and operators such as: `WHERE`, `ORDER BY`, `BETWEEN`, `>`, `=`
 
 In the examples of next section.
