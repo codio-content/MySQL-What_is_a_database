@@ -1,6 +1,6 @@
 ## What is SQL
 
-_SQL_, often pronounced _SEQUEL_ is a _special-purpose programming language_ 
+_SQL_, often pronounced _SEQUEL_ is a _special-purpose programming language_.
 
 Its _special purpose_ is to manipulate data in a _relational database management system_.
 

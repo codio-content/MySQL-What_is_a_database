@@ -9,7 +9,7 @@ These commands allow us to (among other things):
 - Manipulate the data (SELECT, INSERT, UPDATE, DELETE)
 - Control the access to the data (GRANT, REVOKE)
 
-Click on the terminal window on the left pane and start the `mysql` interactive screen:
+Click on the terminal window and start the `mysql` interactive screen:
 
 ```
 # Press enter after you've typed the command:

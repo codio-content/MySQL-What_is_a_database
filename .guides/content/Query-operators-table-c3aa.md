@@ -14,6 +14,6 @@ Here's a detailed table of the available operators and their descriptions:
 | LIKE     | Search for a pattern                                                        |
 | IN       | To specify multiple possible values for a column                            |
 
-How about getting some _DATE_ datatype from the `basic_info` table of the `people` database?
+How about getting some _DATE_ datatype from the `basic_info` table of the `people` database by using the _greater than_ query operator?
 
 All right! Get your hands to code in the next section.

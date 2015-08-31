@@ -9,10 +9,10 @@ Let's _source_ the results of _selecting_ data from the `basic_info` table meeti
 - Sort the results by _email_ in an ascending alphabetical order
 
 ```
-# In your birthday-ids.sql file:
+--- In your birthday-ids.sql file:
 
 SELECT * FROM basic_info 
-WHERE birthday > '2016'
+WHERE birthday > '2016' -- Date must be a string with the greater or lower than operator
 AND id BETWEEN 6 AND 10 
 ORDER BY email ASC;
 ```
@@ -21,8 +21,16 @@ Source the file:
 
 ```
 mysql> source birthday-ids.sql
+
++----+--------------------------+------------+-----------+----------+
+| id | email                    | birthday   | country   | city     |
++----+--------------------------+------------+-----------+----------+
+|  6 | imperdiet.nec.leo@nec.ca | 2016-07-22 | Hong Kong | Richmond |
+| 10 | non.cursus@duinec.edu    | 2016-04-17 | Guatemala | Ilbono   |
++----+--------------------------+------------+-----------+----------+
+2 rows in set (0.00 sec)
 ```
 
 Tadaaah!
 
-Complete the final challenge and keep learning SQL in unit 2!
+All right! Time to reinforce the SQL concepts so far by looking to some examples and completing a challenge afterwards.

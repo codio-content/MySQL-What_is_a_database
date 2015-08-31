@@ -3,14 +3,8 @@
   {
    "id": "7956c5b1-796f-be15-8c6e-9f8fd014c7d",
    "title": "Introduction to SQL",
-   "files": [
-    {
-     "path": "#terminal: sqltest 1 | clear",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels-tree",
+   "files": [],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Introduction-to-SQL-7956.md",
@@ -21,6 +15,7 @@
    "id": "c4f5a2b5-9df5-a09-f153-666ccccce3d5",
    "title": "The relational model",
    "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/The-relational-model-c4f5.md",
@@ -40,7 +35,13 @@
   {
    "id": "39698e54-2fe3-ccb2-ada8-c6807ac61bb0",
    "title": "MySQL",
-   "files": [],
+   "files": [
+    {
+     "path": "#terminal: ",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
    "layout": "",
    "path": [],
    "type": "markdown",
@@ -103,7 +104,7 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-b679.md",
@@ -140,12 +141,12 @@
      "action": "close"
     },
     {
-     "path": "#terminal: mysql",
+     "path": "#terminal: ",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Ordering-table-queries-c0f6.md",
@@ -165,9 +166,26 @@
   {
    "id": "97efe607-eace-77cc-8241-dee3fb5f3a23",
    "title": "Sourcing SQL files",
-   "files": [],
-   "layout": "",
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: cd sqlfiles; mysql",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "sqlfiles/source-file.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "1-panel-tree",
+   "path": [
+    "sqlfiles"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Sourcing-SQL-files-97ef.md",
    "chapter": true,
@@ -183,7 +201,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Query-operators-49fa.md",
@@ -193,7 +211,13 @@
   {
    "id": "c3aad0f8-d064-1c75-719b-3a6e4e852b39",
    "title": "Query operators table",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Query-operators-table-c3aa.md",
@@ -204,10 +228,6 @@
    "id": "eb557ecf-57b0-f083-4269-814995a319b",
    "title": "Sorting rows",
    "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
     {
      "path": "birthdays.sql",
      "panel": 0,
@@ -235,7 +255,7 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-d7d2.md",
@@ -245,7 +265,17 @@
   {
    "id": "76619983-e8db-1a55-ce96-cfb223518bf2",
    "title": "Getting help",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
    "layout": "",
    "path": [],
    "type": "markdown",
@@ -271,20 +301,47 @@
    "reset": []
   },
   {
-   "id": "e722a47b-8e70-160-fe70-f48054ff82d6",
-   "title": "Challenge",
+   "id": "22f8f581-cd0c-a6b2-84e5-e64220eba653",
+   "title": "SQL examples",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
     {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/SQL-examples-22f8.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "10c4cdde-2e00-fca3-2cb1-df8f35bd2b7",
+   "title": "Clauses and operators",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Clauses-and-operators-10c4.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "e722a47b-8e70-160-fe70-f48054ff82d6",
+   "title": "Challenge",
+   "files": [
+    {
      "path": "query-operators.sql",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-e722.md",
