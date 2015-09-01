@@ -1,4 +1,4 @@
-In order to display some people data, we first need to _enter_ the database by executing: 
+In order to display some data, we first need to _change into_ the database by executing:
 
 ```
 mysql> USE people;

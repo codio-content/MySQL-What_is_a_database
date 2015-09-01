@@ -61,7 +61,7 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/SQL-server-and-client-e09f.md",
+   "content-file": ".guides/content/MySQL-server-and-client-e09f.md",
    "chapter": false,
    "reset": []
   },
@@ -455,10 +455,42 @@
   {
    "id": "cccfaa7b-1b32-8a63-9005-663863afcb51",
    "title": "Challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-cccf.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "33630f3-7b4c-d01f-93d-df78d81a34a6",
+   "title": "Challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-3363.md",
    "chapter": false,
    "reset": []
   },
