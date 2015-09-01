@@ -57,11 +57,11 @@
   },
   {
    "id": "e09f199-c38a-c1bc-dc93-2e7677636b52",
-   "title": "SQL commands",
+   "title": "MySQL server and client",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/SQL-commands-e09f.md",
+   "content-file": ".guides/content/SQL-server-and-client-e09f.md",
    "chapter": false,
    "reset": []
   },

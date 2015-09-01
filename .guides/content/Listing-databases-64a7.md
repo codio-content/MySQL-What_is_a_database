@@ -20,7 +20,9 @@ mysql> SHOW DATABASES;
 ### SQL commands capitalization is not mandatory
 However, it is a good practice and a convention to use capitalized SQL commands.
 __Please note__ that we are going to __use capitalized SQL commands__ for our examples as well as __for the challenges.__
+|||
 
+|||info
 ### Semicolons are part of the SQL syntax
 Whenever you forget to type an ending semicolon `;`, a new prompt inside the `mysql>` interactive screen will be created: `->`. 
 
