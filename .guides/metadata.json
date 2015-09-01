@@ -3,7 +3,13 @@
   {
    "id": "7956c5b1-796f-be15-8c6e-9f8fd014c7d",
    "title": "Introduction to SQL",
-   "files": [],
+   "files": [
+    {
+     "path": "#terminal: ",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
@@ -47,6 +53,16 @@
    "type": "markdown",
    "content-file": ".guides/content/MySQL-3969.md",
    "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "e09f199-c38a-c1bc-dc93-2e7677636b52",
+   "title": "SQL commands",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/SQL-commands-e09f.md",
+   "chapter": false,
    "reset": []
   },
   {
@@ -126,9 +142,31 @@
    "id": "5a2224fe-71f0-9f4d-a06e-2f17b205e91a",
    "title": "Limiting queries",
    "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Limiting-queries-5a22.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "a75841a-d36-7255-6228-3ca4179c8ad",
+   "title": "Challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-a758.md",
    "chapter": false,
    "reset": []
   },
@@ -150,7 +188,7 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Ordering-table-queries-c0f6.md",
-   "chapter": false,
+   "chapter": true,
    "reset": []
   },
   {
@@ -196,7 +234,16 @@
    "title": "Query operators",
    "files": [
     {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
      "path": "people.sql",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: mysql",
      "panel": 0,
      "action": "open"
     }
@@ -226,18 +273,27 @@
   },
   {
    "id": "eb557ecf-57b0-f083-4269-814995a319b",
-   "title": "Sorting rows",
+   "title": "Where clause",
    "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
     {
      "path": "birthdays.sql",
      "panel": 0,
      "action": "open"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Sorting-rows-eb55.md",
+   "content-file": ".guides/content/Where-clause-eb55.md",
    "chapter": true,
    "reset": []
   },
@@ -288,12 +344,21 @@
    "title": "AND, OR operators",
    "files": [
     {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
      "path": "birthday-ids.sql",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: mysql",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/AND--OR-operators-3755.md",
@@ -318,12 +383,12 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/SQL-examples-22f8.md",
-   "chapter": false,
+   "chapter": true,
    "reset": []
   },
   {
    "id": "10c4cdde-2e00-fca3-2cb1-df8f35bd2b7",
-   "title": "Clauses and operators",
+   "title": "SQL examples",
    "files": [
     {
      "path": "sqlexamples/sql-example.sql",
@@ -331,12 +396,12 @@
      "action": "open"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "",
    "path": [
     "sqlexamples"
    ],
    "type": "markdown",
-   "content-file": ".guides/content/Clauses-and-operators-10c4.md",
+   "content-file": ".guides/content/SQL-examples-10c4.md",
    "chapter": false,
    "reset": []
   },
@@ -368,7 +433,7 @@
   },
   {
    "id": "4f3de2d4-84e4-b05f-e761-2233e392be24",
-   "title": "Final challenge",
+   "title": "Final challenges",
    "files": [
     {
      "path": "#tabs",
@@ -383,8 +448,18 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Final-challenge-4f3d.md",
+   "content-file": ".guides/content/Final-challenges-4f3d.md",
    "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "cccfaa7b-1b32-8a63-9005-663863afcb51",
+   "title": "Challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-cccf.md",
+   "chapter": false,
    "reset": []
   },
   {

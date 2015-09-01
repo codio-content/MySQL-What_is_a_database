@@ -1,30 +1,22 @@
 ### The MySQL command line interface tools
 
-The terminal window is equipped with _MySQL_. 
-_MySQL_ is an open source program that let us run SQL commands directly on the command line interface. 
+The terminal window is equipped with _MySQL_.
 
-These commands allow us to (among other things):
+_MySQL_ is an open source implementation of a _relational database management system_ which contains the database server and client command line application that let us run SQL commands directly on the command line interface.
 
-- Define where and how data is stored (CREATE, ALTER, DROP, rename)
-- Manipulate the data (SELECT, INSERT, UPDATE, DELETE)
-- Control the access to the data (GRANT, REVOKE)
+### MySQL server and client?
 
-Click on the terminal window and start the `mysql` interactive screen:
+The MySQL server is used to __persist the data__ (store the data) and provide a query interface for it (SQL).
 
-```
-# Press enter after you've typed the command:
-mysql
-```
+The MySQL client's purpose is to __allow you to use that query interface__ with SQL commands.
 
-Are you seeing __this prompt__ as well?: 
+As a summary, you can use the MySQL client to send commands to any MySQL server in any part of the world from a remote computer if you have the access information, such as:
 
-```
-Welcome to the MySQL monitor.  Commands end with ; or \g.
-...
-
-mysql> 
-```
+- The database name
+- The hostname where the database is hosted. (Databases in your local computer use _localhost_ for example.)
+- The database user
+- The database password
 
 ---
 
-Let's list the existing databases in the next section.
+Understand more about SQL commands in the next section.
