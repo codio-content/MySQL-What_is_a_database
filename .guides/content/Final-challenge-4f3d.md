@@ -3,7 +3,7 @@
 |||guidance
 ### Correct answers: 
 
-1. `SHOW DATABASES;`
+1. `USE directory;`
 2. `SHOW TABLES;`
 3. `SELECT * FROM company_profiles;`
 4. `SELECT * FROM company_profiles LIMIT 5;`

@@ -6,7 +6,9 @@ arg=$1
 
 function init_workspace {
   mkdir ${WORKSPACE}sqlfiles
+  mkdir ${WORKSPACE}sqlexamples
   echo -e "-- This is how SQL comments are written (just two dashes)\n\nUSE people;\n\nSELECT SURNAME FROM names\nORDER BY SURNAME DESC\nLIMIT 5;" > ${WORKSPACE}sqlfiles/source-file.sql
+  echo -e "-- Comments in SQL are written this way" > ${WORKSPACE}sqlexamples/sql-example.sql
 	echo "Project files have been reseted"
 	sleep 2
 	clear
@@ -16,8 +18,8 @@ function reset_workspace {
 	echo -e "-- Comments in SQL are written this way" > ${WORKSPACE}people.sql
   echo -e "-- Comments in SQL are written this way" > ${WORKSPACE}birthdays.sql
   echo -e "-- Comments in SQL are written this way" > ${WORKSPACE}birthday-ids.sql
-  echo -e "-- Comments in SQL are written this way" > ${WORKSPACE}sqlexamples/sql-example.sql
   rm -r ${WORKSPACE}sqlfiles
+  rm -r ${WORKSPACE}sqlexamples
   > ${WORKSPACE}people-test.sql
   > ${WORKSPACE}query-operators.sql
   echo ' ' > ~/.mysql_history
