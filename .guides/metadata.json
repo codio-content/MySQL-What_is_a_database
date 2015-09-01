@@ -4,7 +4,7 @@
    "id": "7956c5b1-796f-be15-8c6e-9f8fd014c7d",
    "title": "Introduction to SQL",
    "files": [],
-   "layout": "1-panel",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Introduction-to-SQL-7956.md",
@@ -146,7 +146,7 @@
      "action": "open"
     }
    ],
-   "layout": "1-panel",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Ordering-table-queries-c0f6.md",
@@ -182,7 +182,7 @@
      "action": "open"
     }
    ],
-   "layout": "1-panel-tree",
+   "layout": "2-panels-tree",
    "path": [
     "sqlfiles"
    ],
@@ -201,7 +201,7 @@
      "action": "open"
     }
    ],
-   "layout": "1-panel",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Query-operators-49fa.md",
@@ -324,8 +324,17 @@
   {
    "id": "10c4cdde-2e00-fca3-2cb1-df8f35bd2b7",
    "title": "Clauses and operators",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "sqlexamples/sql-example.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [
+    "sqlexamples"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Clauses-and-operators-10c4.md",
    "chapter": false,
@@ -355,6 +364,27 @@
    "type": "markdown",
    "content-file": ".guides/content/Challenge-e722.md",
    "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "4f3de2d4-84e4-b05f-e761-2233e392be24",
+   "title": "Final challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Final-challenge-4f3d.md",
+   "chapter": true,
    "reset": []
   },
   {

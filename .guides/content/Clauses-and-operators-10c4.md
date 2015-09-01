@@ -1,8 +1,20 @@
-SQL statements can be written in `*.sql` files and executed: 
+We can either write SQL statements directly in the `mysql>` shell or write SQL statements in `*.sql` files.
+In order to do so:
+
+1. Create a `*.sql` file with the name of your preference
+2. Initiate a `mysql` shell
+3. Run the `source file-name.sql` command so SQL reads from the file
+
+We've created a `sql-example.sql` file on the file tree, try opening it, paste the following code and _source_ it afterwards:
 
 ```
-mysql> source file-name.sql
+USE people;
+SELECT * FROM basic_info
+WHERE birthday != 2014
+AND id BETWEEN 3 AND 7
+ORDER BY email ASC;
 ```
+<small>Can you tell what each of the lines is doing?</small>
 
 Select the _email_ column of the `basic_info` table and sort the results by email in _ascending_ order:
 
@@ -50,4 +62,4 @@ AND id BETWEEN 3 AND 7
 ORDER BY email ASC;
 ```
 
-Get ready for a final challenge in the next section.
+Get ready for a challenge in the next section.
