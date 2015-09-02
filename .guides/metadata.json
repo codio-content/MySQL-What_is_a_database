@@ -495,6 +495,34 @@
    "reset": []
   },
   {
+   "id": "7b1f6915-6e5-b14f-cbd7-9129cdb2366b",
+   "title": "Challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "directory.sql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [
+    "directory.sql"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-7b1f.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
    "id": "dbe1139e-de62-5f81-8c9c-2d4ef2331060",
    "title": "That's all folks",
    "files": [
