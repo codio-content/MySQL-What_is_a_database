@@ -19,4 +19,15 @@ And source it like this:
 
 ```
 mysql> source people.sql
+
++----+-------+---------+
+| ID | NAME  | SURNAME |
++----+-------+---------+
+|  9 | Tasha | Steele  |
++----+-------+---------+
+1 row in set (0.01 sec)
 ```
+
+Query operators are very powerful SQL data manipulation complements. 
+
+Let's review a detailed table of the available operators in the next section.

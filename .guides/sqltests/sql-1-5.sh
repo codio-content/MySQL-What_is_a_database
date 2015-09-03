@@ -1,6 +1,6 @@
 #!/bin/bash
 QCOUNT=3
-sed -i "s@\\\040@ @g" $hist_file
+
 
 # Run test
 function test_command {

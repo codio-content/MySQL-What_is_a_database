@@ -1,7 +1,7 @@
 #!/bin/bash
 # Must match for erasing history
 QCOUNT=4
-sed -i "s@\\\040@ @g" $hist_file
+
 
 # Run test
 function test_command {
