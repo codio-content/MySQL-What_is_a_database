@@ -1,9 +1,0 @@
-_HiStOrY_V2_
-USE\040directory;
-SHOW\040TABLES;
-SELECT\040*\040FROM\040company_profiles;
-SELECT\040*\040FROM\040company_profiles\040LIMIT\0405;
-SELECT\040id,company_name\040FROM\040company_profiles\040ORDER\040BY\040id\040DESC;
-SELECT\040*\040FROM\040company_profiles\040WHERE\040company_name\040=\040'Lorem\040Ipsum\040Institute'\040OR\040company_name\040=\040'Et\040LLP';
-SELECT\040id,phone_num\040FROM\040company_profiles\040WHERE\040id\040BETWEEN\04040\040AND\04060;
-mysql

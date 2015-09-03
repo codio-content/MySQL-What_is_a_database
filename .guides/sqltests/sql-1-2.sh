@@ -9,10 +9,10 @@ function test_command {
 	if [[ $COUNT -le $QCOUNT ]]; then
 		case $COUNT in
 			1 )
-				expect_command "SELECT SURNAME FROM names;" "Display the SURNAME column from the 'names' table."
+				expect_commands "Display the SURNAME column from the 'names' table." "SELECT SURNAME FROM names;" "select SURNAME from names;"
 				;;
 			2 )
-				expect_command "SELECT NAME,id FROM names ORDER BY id DESC;" "Query only the 'NAME' and 'id' columns of the 'names' table and sort the results by descending order."
+				expect_commands "Query only the 'NAME' and 'id' columns of the 'names' table and sort the results by descending order." "SELECT NAME,id FROM names ORDER BY id DESC;" "SELECT id,NAME FROM names ORDER BY id DESC;" "select NAME,id from names order by id desc;" "select id,NAME from names order by id desc;"
 				;;			
 		esac
 	else		

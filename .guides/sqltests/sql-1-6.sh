@@ -8,10 +8,10 @@ function test_command {
 	if [[ $COUNT -le $QCOUNT ]]; then
 		case $COUNT in
       1 )
-        expect_command "SELECT * FROM company_profiles LIMIT 5;" "Select all the records from the company_profiles table and limit them to 5 rows only"
+        expect_commands "Select all the records from the company_profiles table and limit them to 5 rows only" "SELECT * FROM company_profiles LIMIT 5;" "select * from company_profiles limit 5;"
         ;;
       2 )
-        expect_command "SELECT id,company_name FROM company_profiles ORDER BY id DESC;" "Select only the id and the company_name columns from the company_profiles table and sort them by id in descending order"
+        expect_commands "Select only the id and the company_name columns from the company_profiles table and sort them by id in descending order" "SELECT id,company_name FROM company_profiles ORDER BY id DESC;" "select id,company_name from company_profiles order by id desc;" "SELECT company_name,id FROM company_profiles ORDER BY id DESC;" "select company_name,id from company_profiles order by id desc;"
         ;;
 		esac
 	else		

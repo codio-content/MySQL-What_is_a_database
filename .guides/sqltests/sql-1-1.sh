@@ -9,16 +9,16 @@ function test_command {
 	if [[ $COUNT -le $QCOUNT ]]; then
 		case $COUNT in
 			1 )
-				expect_command "SHOW DATABASES;" "Display all the available databases"
+				expect_commands "Display all the available databases" "SHOW DATABASES;" "show databases;"
 				;;
 			2 )
-				expect_command "USE people;" "Change the database to be 'people'"
+				expect_commands "Change the database to be 'people'" "USE people;" "use people;"
 				;;
 			3 )
-				expect_command "SHOW TABLES;" "Display the 'people' database tables"
+				expect_commands "Display the 'people' database tables" "SHOW TABLES;" "show tables;"
 				;;
 			4 )
-				expect_command "SELECT * FROM basic_info;" "Select all the records from the basic_info table"
+				expect_commands "Select all the records from the basic_info table" "SELECT * FROM basic_info;" "select * from basic_info;"
 				;;
 		esac
 	else		

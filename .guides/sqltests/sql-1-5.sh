@@ -8,13 +8,13 @@ function test_command {
 	if [[ $COUNT -le $QCOUNT ]]; then
 		case $COUNT in
 			1 )
-				expect_command "USE directory;" "Switch to the directory database"
+				expect_commands "Switch to the directory database" "USE directory;" "use directory;"
 				;;
       2 )
-        expect_command "SHOW TABLES;" "Display the available tables of the directory database"
+        expect_commands "Display the available tables of the directory database" "SHOW TABLES;" "show tables;"
         ;;
       3 )
-        expect_command "SELECT * FROM company_profiles;" "Query all the records from the company_profiles table"
+        expect_commands "Query all the records from the company_profiles table" "SELECT * FROM company_profiles;" "select * from company_profiles;"
         ;;
 		esac
 	else		
