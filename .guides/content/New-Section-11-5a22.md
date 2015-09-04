@@ -7,10 +7,10 @@ Requesting all database table records could compromise the performance and user 
 Let's limit the records to be requested by executing: 
 
 ```
-mysql> SELECT NAME,SURNAME FROM names LIMIT 5;
+mysql> SELECT name,surname FROM names LIMIT 5;
 
 +----------+----------+  
-| NAME     | SURNAME  |  
+| name     | surname  |  
 +----------+----------+  
 | Pamela   | Lyons    |  
 | Daria    | Kelley   |  

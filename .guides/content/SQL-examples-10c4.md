@@ -21,11 +21,11 @@ SELECT * FROM names
 WHERE id > 5;
 ```
 
-Get the records from the `names` table where the _SURNAME_ is equal to 'Britt':
+Get the records from the `names` table where the _surname_ is equal to 'Britt':
 
 ```
 SELECT * FROM names
-WHERE SURNAME = 'Britt';
+WHERE surname = 'Britt';
 ```
 
 Get the _id_, _birthday_ and _country_ columns of the `basic_info` table only if they are between the _birthday_ date 2015 and 2016. Order the results by _birthday_ descending order:

@@ -6,13 +6,13 @@ The `people.sql` has been opened for you.
 
 An advantage of writing SQL code in a `*.sql` file is that we can use new lines to make our code more readable.
 
-Let's _SELECT_ from the _names_ table only the _SURNAME_ that is equal to the text string, _Steele_ (remember that text strings are one of the many datatypes SQL recognizes and must be written inside single or double quotes):
+Let's _SELECT_ from the _names_ table only the _surname_ that is equal to the text string, _Steele_ (remember that text strings are one of the many datatypes SQL recognizes and must be written inside single or double quotes):
 
 ```
 -- Inside the people.sql file:
 
 SELECT * FROM names 
-WHERE SURNAME = 'Steele';
+WHERE surname = 'Steele';
 ```
 
 And source it like this: 
@@ -21,7 +21,7 @@ And source it like this:
 mysql> source people.sql
 
 +---------+ 
-| SURNAME |
+| surname |
 +---------+
 | Steele  |
 +---------+

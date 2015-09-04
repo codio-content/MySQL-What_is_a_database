@@ -1,6 +1,6 @@
 The `basic_info` table of the `people` database contains the following columns (or attributes): 
 
-- ID
+- id
 - email
 - birthday
 - country 

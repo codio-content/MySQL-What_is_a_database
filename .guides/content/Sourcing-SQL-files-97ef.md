@@ -9,8 +9,8 @@ Here's a closer look at the `sqlfiles/source-file.sql` content (notice the use o
 
 USE people;
 
-SELECT SURNAME FROM names
-ORDER BY SURNAME DESC
+SELECT surname FROM names
+ORDER BY surname DESC
 LIMIT 5;
 ```
 

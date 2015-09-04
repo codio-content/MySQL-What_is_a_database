@@ -9,7 +9,7 @@ function test_command {
 	if [[ $COUNT -le $QCOUNT ]]; then
 		case $COUNT in
 			1 )
-				expect_file_match "Write each of the tasks in a new line. Are you using capitalized SQL keywords?" "/home/codio/workspace/directory.sql" "/home/codio/workspace/.guides/sqltests/directory.sql"
+				expect_file_match "Write each of the tasks in a new line. Are you using capitalized SQL keywords?" "/home/codio/workspace/.guides/sqltests/directory.sql" "/home/codio/workspace/directory.sql"
 				;;	
 		esac
 	else		

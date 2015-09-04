@@ -194,7 +194,18 @@
   {
    "id": "92ca7698-adb2-6f1c-95d1-a45fc409df16",
    "title": "Challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#terminal: mysql",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Challenge-92ca.md",

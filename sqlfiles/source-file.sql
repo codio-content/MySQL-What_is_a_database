@@ -2,6 +2,6 @@
 
 USE people;
 
-SELECT SURNAME FROM names
-ORDER BY SURNAME DESC
+SELECT surname FROM names
+ORDER BY surname DESC
 LIMIT 5;

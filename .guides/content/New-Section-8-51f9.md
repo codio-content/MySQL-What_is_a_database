@@ -8,7 +8,7 @@ Click on your terminal window and execute the following SQL statement:
 mysql> SELECT * FROM names;
 
 +----+----------+----------+ 
-| id | NAME     | SURNAME  | 
+| id | name     | surname  | 
 +----+----------+----------+ 
 |  1 | Pamela   | Lyons    | 
 |  2 | Daria    | Kelley   | 
