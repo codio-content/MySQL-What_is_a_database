@@ -1,4 +1,7 @@
 SHOW databases;
+
 USE people;
-SHOW TABLES;
-SELECT * FROM basic_info;
+
+SHOW tables;
+
+SELECT * from basic_info;

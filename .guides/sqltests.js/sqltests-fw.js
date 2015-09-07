@@ -4,6 +4,7 @@
 */
 var mysql = require('mysql');
 var fs = require('fs');
+// var Promise = require('bluebird');
 var errorLogs = require('./errorLogs.js');
 var connection;
 var globalCount = 0;

@@ -18,9 +18,9 @@ errorLogs.readChallengeFile = function(reason, srcFile, tasks, queries){
 	  	break;
 	  case (reason == 'length'):
 	  	console.log('You are missing some tasks.')
-	  	console.log('Requested tasks: ' + tasks.length);
-	  	console.log('Written tasks: ' + queries.length);
-	  	console.log('Each task must end with a semicolon.')
+	  	console.log('Requested statements: ' + tasks.length);
+	  	console.log('Written statements: ' + queries.length);
+	  	console.log('Each statement must end with a semicolon.')
 	  	process.exit(1);
 	  	break;
 	}
