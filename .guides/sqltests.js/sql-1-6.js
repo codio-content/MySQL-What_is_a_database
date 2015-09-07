@@ -7,6 +7,10 @@ var workspace = sqltest.workspaceDirectory;
  tasks[{Task description | Expected Query}]
 */
 var tasks = [
+  [
+		"Use the directory database",
+		"USE directory"
+	],
 	[
 		"Select all the records from the company_profiles table and limit them to 5 rows only",
 		"SELECT * FROM company_profiles LIMIT 5"

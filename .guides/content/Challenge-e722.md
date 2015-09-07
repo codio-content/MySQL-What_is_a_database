@@ -3,7 +3,7 @@
 |||guidance
 ### Correct answers:
 
-1. Inside the `query-operators.sql` file:
+1. Inside the `sql-1-4.sql` file:
 
 ```
 SELECT * FROM basic_info 

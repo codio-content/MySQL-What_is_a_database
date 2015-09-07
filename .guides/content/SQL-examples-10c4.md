@@ -1,4 +1,4 @@
-For the next set of examples, try doing a `source` on each of them by copying and pasting the code in the `sql-example.sql` we created for you.
+For the next set of examples, try doing a `source` on each of them by copying and pasting the code in the `sql-example.sql` file we created for you.
 
 Select the _email_ column of the `basic_info` table and sort the results by email in _ascending_ order:
 

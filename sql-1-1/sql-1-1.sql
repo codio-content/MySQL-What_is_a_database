@@ -1,7 +1,7 @@
 SHOW databases;
 
-USE people;
+USE directory;
 
-SHOW table;
+SHOW tables;
 
 SELECT * from basic_info;

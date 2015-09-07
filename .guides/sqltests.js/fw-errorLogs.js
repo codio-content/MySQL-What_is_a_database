@@ -1,8 +1,9 @@
 var errorLogs = {};
 var errorMessages = [
 	'Did you miss any semicolons between each query?',
-	'Does the table name match existing tables?',
-	'Check your column names'
+	'Watch out for spaces between keywords and names',
+	'Check your database, table or column names',
+  'Are you using the right SQL keywords?'
 ];
 
 errorLogs.queryDatabaseByType = function(globalCount){
@@ -15,6 +16,7 @@ errorLogs.readChallengeFile = function(reason, srcFile, tasks, queries){
 		case (reason == 'empty'):
 			console.log('Fail to retrieve queries from ' + srcFile + ' file. File is empty.');
 			console.log('Did you forget to save it?');
+      process.exit(1);
 			break;
 		case (reason == 'srcFile'):
 			console.log('Fail to retrieve queries from ' + srcFile + ' file.');

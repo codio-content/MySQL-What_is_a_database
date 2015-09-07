@@ -2,7 +2,7 @@ As SQL commands get longer, we need a better way to declare our queries.
 
 `*.sql` files (the asterisk represents any name), such as the `source-file.sql` file we have on the file tree, are files that can be read by the MySQL command line tool.
 
-Here's a closer look at the `sqlfiles/source-file.sql` content (notice the use of new lines and the ending `;` as well):
+Here's a closer look at the `source-file.sql` content (notice the use of new lines and the ending `;` as well):
 
 ```
 -- This is how SQL comments are written (just two dashes)

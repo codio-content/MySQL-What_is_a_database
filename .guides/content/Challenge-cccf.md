@@ -3,6 +3,7 @@
 |||guidance
 ### Correct answers: 
 
+1. `USE directory;`
 1. `SELECT * FROM company_profiles LIMIT 5;`
 5. `SELECT id,company_name FROM company_profiles ORDER BY id DESC;`
 
