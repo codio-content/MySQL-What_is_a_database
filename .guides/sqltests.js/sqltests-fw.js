@@ -11,10 +11,10 @@ var globalDbName = '';
 var queryTypes = {};
 
 var sqltest = {};
-// sqltest.workspaceDirectory = '~/workspace/';
-// sqltest.sqlDir = sqltests.workspaceDirectory + '.guides/sqltests.js/';
-sqltest.workspaceDirectory = '/Volumes/Seagate Backup Plus Drive/htdocs/MySQL/CodioSQL.Units/sql1/';
+sqltest.workspaceDirectory = '/home/codio/workspace/';
 sqltest.sqlDir = sqltest.workspaceDirectory + '.guides/sqltests.js/';
+// sqltest.workspaceDirectory = '/Volumes/Seagate Backup Plus Drive/htdocs/MySQL/CodioSQL.Units/sql1/';
+// sqltest.sqlDir = sqltest.workspaceDirectory + '.guides/sqltests.js/';
 
 // Utils
 function normalizeQueries(query){
@@ -93,8 +93,7 @@ function readChallengeFile(srcFile, tasks){
 function connectTo(dbName) {
 	connection = mysql.createConnection({
 	  host     : 'localhost',
-	  user     : 'root',
-	  password : 'N3tp0ePl@n',
+	  user     : '',
 	  database : dbName
 	});
 	connection.connect();
