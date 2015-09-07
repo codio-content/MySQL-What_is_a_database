@@ -28,5 +28,4 @@ var tasks = [
 	Init test
 	sql.testCommands(user source file, database name, tasks array)
 */
-var srcFile = workspace + 'src-file.sql';
-sqltest.testCommands(srcFile, 'people', tasks);
+sqltest.testCommands('sql-1-1.sql', 'people', tasks);

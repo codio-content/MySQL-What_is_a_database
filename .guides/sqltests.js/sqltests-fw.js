@@ -7,11 +7,14 @@ var fs = require('fs');
 var errorLogs = require('./errorLogs.js');
 var connection;
 var globalCount = 0;
+var globalDbName = '';
 var queryTypes = {};
 
 var sqltest = {};
-sqltest.workspaceDirectory = '~/workspace/';
-sqltest.sqlDir = sqltests.workspaceDirectory + '.guides/sqltests.js/';
+// sqltest.workspaceDirectory = '~/workspace/';
+// sqltest.sqlDir = sqltests.workspaceDirectory + '.guides/sqltests.js/';
+sqltest.workspaceDirectory = '/Volumes/Seagate Backup Plus Drive/htdocs/MySQL/CodioSQL.Units/sql1/';
+sqltest.sqlDir = sqltest.workspaceDirectory + '.guides/sqltests.js/';
 
 // Utils
 function normalizeQueries(query){
@@ -36,23 +39,55 @@ function sortResult(rows){
 	return output = JSON.stringify(output);
 }
 
+RegExp.quote = function(str) {
+  return (str+'').replace(/[.?*+^$[\]\\(){}|-]/g, "\\$&");
+};
+
+function simulateQuery(query, callback){
+	var q = query;
+	var result = 'Query matches.';
+	var USEpattern = '^USE\s+'+globalDbName;
+	var USEregex = new RegExp(RegExp.quote(USEpattern), 'gi');
+	switch (true) {
+		case (/^SHOW\s+DATABASES/i.test(q)):
+			callback(false, result);
+			break;
+		case (/^SHOW\s+TABLES/i.test(q)):
+			callback(false, result);
+			break;
+		case (/^USE\s+/i.test(q)):
+			callback(false, result);
+			break;
+		// case (USEregex.test(q)):
+		// 	callback(false, result);
+		// 	break;
+		default:
+			callback(true);
+	}
+}
+
 // Init process:
 function readChallengeFile(srcFile, tasks){
-	var srcFile = sqltest.sqlDir + srcFile;
+	var srcFile = sqltest.workspaceDirectory + srcFile;
 	return new Promise(function(resolve, reject){
 		fs.readFile(srcFile, 'utf-8', function (err, data) {
 		  if (err) {
 		  	errorLogs.readChallengeFile('srcFile', srcFile);
 		  };
-		  var queries = normalizeQueries(data);
-		  // Number of tasks equal number of user queries:
-		  if (queries.length != tasks.length) {
-		  	errorLogs.readChallengeFile('length', tasks, queries);
+		  if (data.length) {
+			  var queries = normalizeQueries(data);
+			  // Number of tasks equal number of user queries:
+			  if (queries.length != tasks.length) {
+			  	errorLogs.readChallengeFile('length', srcFile, tasks, queries);
+			  } else {
+			  	resolve(queries);
+			  }
 		  } else {
-		  	resolve(queries);
+		  	errorLogs.readChallengeFile('empty', srcFile);
 		  }
 		});
 	});
+	errorLogs.readChallengeFile('empty', srcFile);
 }
 
 function connectTo(dbName) {
@@ -66,10 +101,28 @@ function connectTo(dbName) {
 }
 
 function queryDatabaseByType(db, query){
-	var query = normalizeQueries(query);
+	var query = normalizeQueries(query)[0];
 	return new Promise(function(resolve, reject){
 		connectTo(db);
 		switch (true) {
+			case (/^SHOW/gi.test(query)):
+				simulateQuery(query, function(err, result){
+					if (err) {
+						errorLogs.queryDatabaseByType(globalCount);
+					} else {
+				  	resolve(result);
+					}
+				});
+				break;
+			case (/^USE/gi.test(query)):
+				simulateQuery(query, function(err, result){
+					if (err) {
+						errorLogs.queryDatabaseByType(globalCount);
+					} else {
+				  	resolve(result);
+					}
+				});
+				break;
 			case (/^SELECT/gi.test(query)):
 				connection.query(query, function(err, rows, fields) {
 				  if (err) {
@@ -81,8 +134,7 @@ function queryDatabaseByType(db, query){
 				});
 				break;
 			default:
-				console.log('Query matches no DDL keyword');
-				process.exit(1);
+				errorLogs.unknownQuery(globalCount);
 		}
 		connection.end();
 	});
@@ -118,10 +170,11 @@ function dbLookup(dbName, tasks, userQueriesArr){
 }
 
 sqltest.testCommands = function(srcFile, dbName, tasks){
+	globalDbName = dbName;
 	readChallengeFile(srcFile, tasks).then(function(userQueriesArr){
 		dbLookup(dbName, tasks, userQueriesArr);
 	}).catch(function(){
-		console.log('Fail to retrieve queries from ' + srcFile + ' file.');
+		errorLogs.readChallengeFile('srcFile', srcFile);
 	});
 };
 
