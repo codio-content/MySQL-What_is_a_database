@@ -4,8 +4,8 @@
 */
 var mysql = require('mysql');
 var fs = require('fs');
-// var Promise = require('bluebird');
-var errorLogs = require('./errorLogs.js');
+var errorLogs = require('./fw-errorLogs.js');
+var Utils = require('./fw-utils.js');
 var connection;
 var globalCount = 0;
 var globalDbName = '';
@@ -17,56 +17,6 @@ sqltest.sqlDir = sqltest.workspaceDirectory + '.guides/sqltests.js/';
 // sqltest.workspaceDirectory = '/Volumes/Seagate Backup Plus Drive/htdocs/MySQL/CodioSQL.Units/sql1/';
 // sqltest.sqlDir = sqltest.workspaceDirectory + '.guides/sqltests.js/';
 
-// Utils
-function normalizeQueries(query){
-	var fullQuery, queries;
-	fullQuery = query.replace(/\n/g, ' ');
-  fullQuery = fullQuery.replace(/\s+/g, ' ');
-  queries = fullQuery.match(/((\w+?)[^;]*)/g);
-  return queries;
-}
-
-function sortResult(rows){
-	var output = [];
-	rows.forEach(function(item, index, array){
-		var obj = {};
-		Object.keys(item).sort().forEach(function(itm, indx) {
-			if (Object.keys(obj).length <= Object.keys(item).length) {
-				obj[itm] = item[itm];
-			}
-		});
-		output.push(obj);
-	});
-	return output = JSON.stringify(output);
-}
-
-RegExp.quote = function(str) {
-  return (str+'').replace(/[.?*+^$[\]\\(){}|-]/g, "\\$&");
-};
-
-function simulateQuery(query, callback){
-	var q = query;
-	var result = 'Query matches.';
-	var USEpattern = '^USE\s+'+globalDbName;
-	var USEregex = new RegExp(RegExp.quote(USEpattern), 'gi');
-	switch (true) {
-		case (/^SHOW\s+DATABASES/i.test(q)):
-			callback(false, result);
-			break;
-		case (/^SHOW\s+TABLES/i.test(q)):
-			callback(false, result);
-			break;
-		case (/^USE\s+/i.test(q)):
-			callback(false, result);
-			break;
-		// case (USEregex.test(q)):
-		// 	callback(false, result);
-		// 	break;
-		default:
-			callback(true);
-	}
-}
-
 // Init process:
 function readChallengeFile(srcFile, tasks){
 	var srcFile = sqltest.workspaceDirectory + srcFile;
@@ -76,7 +26,7 @@ function readChallengeFile(srcFile, tasks){
 		  	errorLogs.readChallengeFile('srcFile', srcFile);
 		  };
 		  if (data.length) {
-			  var queries = normalizeQueries(data);
+			  var queries = Utils.normalizeQueries(data);
 			  // Number of tasks equal number of user queries:
 			  if (queries.length != tasks.length) {
 			  	errorLogs.readChallengeFile('length', srcFile, tasks, queries);
@@ -95,18 +45,20 @@ function connectTo(dbName) {
 	connection = mysql.createConnection({
 	  host     : 'localhost',
 	  user     : '',
+	  // user     : 'root',
+	  // password : 'N3tp0ePl@n',
 	  database : dbName
 	});
 	connection.connect();
 }
 
 function queryDatabaseByType(db, query){
-	var query = normalizeQueries(query)[0];
+	var query = Utils.normalizeQueries(query)[0];
 	return new Promise(function(resolve, reject){
 		connectTo(db);
 		switch (true) {
 			case (/^SHOW/gi.test(query)):
-				simulateQuery(query, function(err, result){
+				Utils.simulateQuery(query, globalDbName, function(err, result){
 					if (err) {
 						errorLogs.queryDatabaseByType(globalCount);
 					} else {
@@ -115,7 +67,7 @@ function queryDatabaseByType(db, query){
 				});
 				break;
 			case (/^USE/gi.test(query)):
-				simulateQuery(query, function(err, result){
+				Utils.simulateQuery(query, globalDbName, function(err, result){
 					if (err) {
 						errorLogs.queryDatabaseByType(globalCount);
 					} else {
@@ -128,7 +80,7 @@ function queryDatabaseByType(db, query){
 				  if (err) {
 				  	errorLogs.queryDatabaseByType(globalCount);
 				  } else {
-				  	var output = sortResult(rows);
+				  	var output = Utils.sortResult(rows);
 				  	resolve(output);
 				  }
 				});
@@ -163,9 +115,11 @@ function dbLookup(dbName, tasks, userQueriesArr){
 			}
 		}).catch(function(){
 			console.log('Failed to retrieve userQueries from db');
+			process.exit(1);
 		});
 	}).catch(function(){
 		console.log('Fail to retrieve expectedQueries from db.');
+		process.exit(1);
 	});
 }
 

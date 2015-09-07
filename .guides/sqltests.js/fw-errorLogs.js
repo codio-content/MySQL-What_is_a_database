@@ -1,8 +1,13 @@
 var errorLogs = {};
+var errorMessages = [
+	'Did you miss any semicolons between each query?',
+	'Does the table name match existing tables?',
+	'Check your column names'
+];
 
 errorLogs.queryDatabaseByType = function(globalCount){
 	console.log('[Error   ]: Task ' + globalCount + '. Your SQL query has syntax errors');
-	console.log('Did you miss any semicolons between each query?');
+	console.log(errorMessages[Math.floor(Math.random() * errorMessages.length)]);
 	process.exit(1);
 }
 errorLogs.readChallengeFile = function(reason, srcFile, tasks, queries){
