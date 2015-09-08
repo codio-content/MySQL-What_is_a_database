@@ -3,12 +3,17 @@
 
 WORKSPACE=/home/codio/workspace/
 arg=$1
+COUNT=10
 
 function init_workspace {
-  mkdir ${WORKSPACE}sqlfiles
   mkdir ${WORKSPACE}sqlexamples
-  echo -e "-- This is how SQL comments are written (just two dashes)\n\nUSE people;\n\nSELECT surname FROM names\nORDER BY surname DESC\nLIMIT 5;" > ${WORKSPACE}sqlfiles/source-file.sql
+  echo -e "-- This is how SQL comments are written (just two dashes)\n\nUSE people;\n\nSELECT surname FROM names\nORDER BY surname DESC\nLIMIT 5;" > ${WORKSPACE}source-file.sql
   echo -e "-- Comments in SQL are written this way" > ${WORKSPACE}sqlexamples/sql-example.sql
+  while (( COUNT > 0 ))
+  do
+    > ${WORKSPACE}/sql-1-$COUNT/sql-1-$COUNT.sql
+    (( COUNT -- ))
+  done
 	echo "Project files have been reseted"
 	sleep 2
 	clear
@@ -18,11 +23,7 @@ function reset_workspace {
 	echo -e "-- Comments in SQL are written this way" > ${WORKSPACE}people.sql
   echo -e "-- Comments in SQL are written this way" > ${WORKSPACE}birthdays.sql
   echo -e "-- Comments in SQL are written this way" > ${WORKSPACE}birthday-ids.sql
-  rm -r ${WORKSPACE}sqlfiles
   rm -r ${WORKSPACE}sqlexamples
-  > ${WORKSPACE}people-test.sql
-  > ${WORKSPACE}query-operators.sql
-  > ${WORKSPACE}directory.sql
   echo ' ' > ~/.mysql_history
 	echo "Reseting project files and directories"
 	sleep 2
