@@ -12,11 +12,12 @@ var globalCount = 0;
 var globalDbName = '';
 var queryTypes = {};
 var expectedQuery;
+var placeholder = '';
 
 var sqltest = {};
 sqltest.workspaceDirectory = '/home/codio/workspace/';
 sqltest.sqlDir = sqltest.workspaceDirectory + '.guides/sqltests.js/';
-// sqltest.workspaceDirectory = '/Volumes/Seagate Backup Plus Drive/htdocs/MySQL/CodioSQL.Units/sql1/';
+// sqltest.workspaceDirectory = '/Volumes/Seagate Backup Plus Drive/htdocs/MySQL/CodioSQL.Units/sql2/';
 // sqltest.sqlDir = sqltest.workspaceDirectory + '.guides/sqltests.js/';
 
 // Init process:
@@ -56,17 +57,29 @@ function connectTo(dbName) {
 
 function queryDatabaseByType(query){
 	var query = Utils.normalizeQueries(query)[0];
+	var output;
 	return new Promise(function(resolve, reject){
 		connectTo(globalDbName);
 		connection.query(query, function(err, rows, fields) {
 		  if (err) {
-		  	var output = Utils.sortResult(err);
-	  		resolve(output);
+		  	switch (true) {
+		  		case (err['code'] === 'ER_TABLE_EXISTS_ERROR'):
+				  		if (query.split(' ')[2] === placeholder) {
+					  		output = Utils.sortResult(err);
+					  		resolve(output);
+				  		} else {
+				  			errorLogs.queryDatabaseByType(globalCount);
+				  		}
+		  			break;
+		  		default:
+				  	output = Utils.sortResult(err);
+			  		resolve(output);
+		  	}
 		  } else {
 		  	if (rows.insertId) {
 		  		rows.insertId = 1;
 		  	}
-	  		var output = Utils.sortResult(rows);
+	  		output = Utils.sortResult(rows);
 	  		resolve(output);
 		  }
 		});
@@ -106,8 +119,9 @@ function dbLookup(dbName, tasks, userQueriesArr){
 	});
 }
 
-sqltest.testCommands = function(srcFile, dbName, tasks){
+sqltest.testCommands = function(srcFile, dbName, tasks, pholder){
 	globalDbName = dbName;
+	placeholder = pholder.length ? pholder : '';
 	readChallengeFile(srcFile, tasks).then(function(userQueriesArr){
 		dbLookup(dbName, tasks, userQueriesArr);
 	}).catch(function(){
