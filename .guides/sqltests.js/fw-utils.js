@@ -11,39 +11,19 @@ utils.normalizeQueries = function (query){
 
 utils.sortResult = function(rows){
 	var output = [];
-	rows.forEach(function(item, index, array){
-		var obj = {};
-		Object.keys(item).sort().forEach(function(itm, indx) {
-			if (Object.keys(obj).length <= Object.keys(item).length) {
-				obj[itm] = item[itm];
-			}
+	if (Object.prototype.toString.call( rows ) === '[object Array]') {
+		rows.forEach(function(item, index, array){
+			var obj = {};
+			Object.keys(item).sort().forEach(function(itm, indx) {
+				if (Object.keys(obj).length <= Object.keys(item).length) {
+					obj[itm] = item[itm];
+				}
+			});
+			output.push(obj);
 		});
-		output.push(obj);
-	});
-	return output = JSON.stringify(output);
-}
-
-utils.simulateQuery = function(query, dbName, callback){
-	var q = query;
-	var result = 'Query matches.';
-	var queryUSEdb = 'use ' + dbName;
-	switch (true) {
-		case (/^SHOW\s+DATABASES/i.test(q)):
-			callback(false, result);
-			break;
-		case (/^SHOW\s+TABLES/i.test(q)):
-			callback(false, result);
-			break;
-		case (/^USE\s+/i.test(q)):
-			q = q.replace(/^USE/i, 'use');
-			if (q == queryUSEdb) {
-				callback(false, result);
-			} else {
-				callback(true);
-			}			
-			break;
-		default:
-			callback(true);
+		return output = JSON.stringify(output);
+	} else {
+		return JSON.stringify(rows);
 	}
 }
 

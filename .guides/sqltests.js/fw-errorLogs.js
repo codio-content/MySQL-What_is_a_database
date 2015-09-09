@@ -34,6 +34,7 @@ errorLogs.readChallengeFile = function(reason, srcFile, tasks, queries){
 }
 errorLogs.queryMismatch = function(globalCount, task){
 	console.log('[Error   ]: Task ' + globalCount + '. Expected: ' + task);
+	console.log(errorMessages[Math.floor(Math.random() * errorMessages.length)]);
 	process.exit(1);
 }
 errorLogs.unknownQuery = function(globalCount){
