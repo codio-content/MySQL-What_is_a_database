@@ -7,8 +7,8 @@ COUNT=10
 
 function init_workspace {
   mkdir ${WORKSPACE}sqlexamples
+  echo -e "-- Comments in SQL are written this way" > ${WORKSPACE}sql-examples/sql-example.sql
   echo -e "-- This is how SQL comments are written (just two dashes)\n\nUSE people;\n\nSELECT surname FROM names\nORDER BY surname DESC\nLIMIT 5;" > ${WORKSPACE}source-file.sql
-  echo -e "-- Comments in SQL are written this way" > ${WORKSPACE}sqlexamples/sql-example.sql
   while (( COUNT > 0 ))
   do
     > ${WORKSPACE}/sql-1-$COUNT/sql-1-$COUNT.sql

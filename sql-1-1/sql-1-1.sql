@@ -1,6 +1,6 @@
 SHOW databases;
 
-USE directory;
+USE people;
 
 SHOW tables;
 
