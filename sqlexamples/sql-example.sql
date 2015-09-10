@@ -1,1 +1,0 @@
--- Comments in SQL are written this way
