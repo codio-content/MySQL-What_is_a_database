@@ -2,7 +2,10 @@ In order to display some data, we first need to _change into_ the database by ex
 
 ```
 mysql> USE people;
-# Database changed
+```
+And you should see this:
+```
+Database changed
 ```
 
 We are now inside the `people` database.
