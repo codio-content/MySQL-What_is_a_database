@@ -11,7 +11,9 @@ List the existing tables by executing:
 
 ```
 mysql> SHOW TABLES;
-
+```
+And you should see this:
+```
 +------------------+ 
 | Tables_in_people | 
 +------------------+ 

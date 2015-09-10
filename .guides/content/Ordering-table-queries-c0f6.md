@@ -10,7 +10,9 @@ Let's execute a query for _selecting_ the `email` column and the `country` colum
 
 ```
 mysql> SELECT email,country FROM basic_info ORDER BY email ASC LIMIT 7;
-
+```
+And you should see this:
+```
 +---------------------------------------+-------------+ 
 | email                                 | country     | 
 +---------------------------------------+-------------+ 

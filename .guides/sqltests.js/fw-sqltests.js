@@ -121,7 +121,7 @@ function dbLookup(dbName, tasks, userQueriesArr){
 
 sqltest.testCommands = function(srcFile, dbName, tasks, pholder){
 	globalDbName = dbName;
-	placeholder = pholder.length ? pholder : '';
+	placeholder = pholder ? pholder : '';
 	readChallengeFile(srcFile, tasks).then(function(userQueriesArr){
 		dbLookup(dbName, tasks, userQueriesArr);
 	}).catch(function(){

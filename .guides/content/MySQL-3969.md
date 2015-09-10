@@ -10,7 +10,7 @@ Use the MySQL client by executing the following command in the terminal window:
 mysql
 ```
 
-Are you seeing __this prompt__ as well?: 
+You should then see this:
 
 ```
 Welcome to the MySQL monitor.  Commands end with ; or \g.
@@ -21,10 +21,10 @@ mysql>
 
 From the client, SQL commands allow us to (among other things):
 
-- Define where and how data is stored (CREATE, ALTER, DROP, rename)
+- Define where and how data is stored (CREATE, ALTER, DROP, RENAME)
 - Manipulate the data (SELECT, INSERT, UPDATE, DELETE)
 - Control the access to the data (GRANT, REVOKE)
 
 ---
 
-Understand more about SQL server and client in the next section.
+Head to the next section to understand more about SQL server and client.

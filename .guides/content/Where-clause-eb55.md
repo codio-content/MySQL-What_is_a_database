@@ -9,11 +9,13 @@ WHERE birthday > '2016'
 ORDER BY birthday;
 ```
 
-And source it: 
+Source it: 
 
 ```
 mysql> source birthdays.sql
-
+```
+And you should see this:
+```
 +----+-------------------------------------+------------+-----------+-------------+
 | id | email                               | birthday   | country   | city        |
 +----+-------------------------------------+------------+-----------+-------------+

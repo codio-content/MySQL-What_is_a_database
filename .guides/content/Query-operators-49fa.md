@@ -15,15 +15,17 @@ SELECT * FROM names
 WHERE surname = 'Steele';
 ```
 
-And source it like this: 
+Source it like this: 
 
 ```
 mysql> source people.sql
-
-+---------+ 
-| surname |
-+---------+
-| Steele  |
-+---------+
+```
+And you should see this:
+```
++----+-------+---------+
+| id | name  | surname |
++----+-------+---------+
+|  9 | Tasha | Steele  |
++----+-------+---------+
 1 row in set (0.00 sec)
 ```

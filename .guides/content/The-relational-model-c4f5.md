@@ -1,6 +1,6 @@
 Think about your favourite app.
 
-Whenever you navigate into it, regardless of the device or browser, some kind of database must be running in the server in order for the data to be present. Even if you close the window or tab and go back again later.
+Whenever you navigate into it, regardless of the device or browser, some kind of database must be running on the server in order for the data to be present.
 
 A _relational database_ is a tool that stores data and lets you _create_, _select_, _update_ and _delete_ that data:
 

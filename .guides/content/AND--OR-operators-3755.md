@@ -21,7 +21,9 @@ Source the file:
 
 ```
 mysql> source birthday-ids.sql
-
+```
+And you should see this:
+```
 +----+--------------------------+------------+-----------+----------+
 | id | email                    | birthday   | country   | city     |
 +----+--------------------------+------------+-----------+----------+

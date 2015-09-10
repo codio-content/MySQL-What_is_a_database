@@ -4,7 +4,9 @@ Let's _SELECT_ data just from 2 columns (_email_ and _birthday_) of the `basic_i
 
 ```
 mysql> SELECT email,birthday FROM basic_info;
-
+```
+And you should see this:
+```
 +--------------------------------------------+------------+
 | email                                      | birthday   |
 +--------------------------------------------+------------+

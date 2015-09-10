@@ -1,15 +1,13 @@
 We've created a DATABASE called: `people`
 
-List the existing databases in your current `mysql>` prompt by executing:
+List the existing databases in your current `mysql>` prompt by executing `SHOW DATABASES;` to then see:
 
 ```
-# Mind the ending semi-colon:
-mysql> SHOW DATABASES;
-
 +--------------------+ 
 | Database           | 
 +--------------------+ 
-| information_schema | 
+| information_schema |
+| directory          |
 | people             | 
 | test               | 
 +--------------------+ 
@@ -24,12 +22,18 @@ __Please note__ that we are going to __use capitalized SQL commands__ for our ex
 
 |||info
 ### Semicolons are part of the SQL syntax
-Whenever you forget to type an ending semicolon `;`, a new prompt inside the `mysql>` interactive screen will be created: `->`. 
+Whenever you complete a SQL statement, be sure to append a semicolon `;`. If you forget to type an ending semicolon, a new prompt inside the `mysql>` interactive screen will be created: `->`.
 
-Don't worry, it's easy to get out of this prompt.
+There are different types of prompts in the MySQL command line client, here are two of them:
 
-Just type: `\c` and press enter.
+```
+-- Prompt  Meaning
+mysql>  Ready for new command. Finish it with the exit command or ctrl+c
+
+->      Waiting for next line of multiple-line command. Finish it with \c or ; and hit enter.
+```
+
 |||
 
 ---
-Now that you've indentified the `people` database, let's _use_ it and display some data!
+In the next section we will `USE` the `people` database and display some data.

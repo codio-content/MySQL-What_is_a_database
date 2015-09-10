@@ -6,7 +6,7 @@ Its _special purpose_ is to manipulate data in a _relational database management
 
 ### Relational databases
 
-_Relational database mangament systems_ or RDBMS for short, are a common choice for the __storage of information__ used for:
+_Relational database management systems_ or RDBMS for short, are a common choice for the __storage of information__ used for:
 
 - Financial records
 - Manufacturing and logistical information

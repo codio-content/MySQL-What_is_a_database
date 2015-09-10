@@ -6,7 +6,9 @@ Click on your terminal window and execute the following SQL statement:
 
 ```
 mysql> SELECT * FROM names;
-
+```
+And you should see this:
+```
 +----+----------+----------+ 
 | id | name     | surname  | 
 +----+----------+----------+ 
