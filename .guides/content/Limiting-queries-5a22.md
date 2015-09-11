@@ -4,11 +4,13 @@ In a common application database, there would be more than 10 table records for 
 
 Requesting all database table records could compromise the performance and user experience of your app.
 
-Let's limit the records to be requested by executing: 
+Let's limit the records to be requested by executing (remember that the `people` database must be in `USE`):
 
 ```
 mysql> SELECT name,surname FROM names LIMIT 5;
-
+```
+And you should see this:
+```
 +----------+----------+  
 | name     | surname  |  
 +----------+----------+  
