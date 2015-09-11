@@ -6,7 +6,7 @@ The `basic_info` table of the `people` database contains the following columns (
 - country 
 - city
 
-Let's execute a query for _selecting_ the `email` column and the `country` column sorting the `email` column by _ASCENDING_ alphabetical order plus limiting the results to 7 rows only:
+Let's execute a query for _selecting_ the `email` column and the `country` column sorting the `email` column by _ASCENDING_ alphabetical order plus limiting the results to 7 rows only (remember that the `people` database must be in `USE`) (remember that the `people` database must be in `USE`):
 
 ```
 mysql> SELECT email,country FROM basic_info ORDER BY email ASC LIMIT 7;

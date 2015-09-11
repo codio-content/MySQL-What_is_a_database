@@ -2,7 +2,7 @@ Now that we know that there are 2 existing tables inside the `people` database, 
 
 The `names` table.
 
-Click on your terminal window and execute the following SQL statement:
+Click on your terminal window and execute the following SQL statement (remember that the `people` database must be in `USE`) (remember that the `people` database must be in `USE`):
 
 ```
 mysql> SELECT * FROM names;

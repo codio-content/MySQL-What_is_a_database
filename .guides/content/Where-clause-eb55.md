@@ -4,6 +4,10 @@ Click on it and type a _SELECT * FROM_ statement that gets only the rows that co
 ```
 --- In your birthdays.sql file
 
+USE people;
+
+USE people;
+
 SELECT * FROM basic_info 
 WHERE birthday > '2016' 
 ORDER BY birthday;

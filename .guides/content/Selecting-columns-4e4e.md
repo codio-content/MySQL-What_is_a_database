@@ -1,6 +1,6 @@
 In the previous section we learned how to manipulate data with the `SELECT * FROM table_name;` statement. 
 
-Let's _SELECT_ data just from 2 columns (_email_ and _birthday_) of the `basic_info` table:
+Let's _SELECT_ data just from 2 columns (_email_ and _birthday_) of the `basic_info` table (remember that the `people` database must be in `USE`) (remember that the `people` database must be in `USE`):
 
 ```
 mysql> SELECT email,birthday FROM basic_info;
