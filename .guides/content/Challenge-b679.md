@@ -3,9 +3,9 @@
 |||guidance
 ### Correct answers: 
 
-1. `SHOW DATABASES;`
-2. `USE people;`
-3. `SHOW TABLES;`
-4. `SELECT * FROM basic_info;`
+`SHOW DATABASES;`
+`USE people;`
+`SHOW TABLES;`
+`SELECT * FROM basic_info;`
 
 |||

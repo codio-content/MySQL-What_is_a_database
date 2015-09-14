@@ -3,8 +3,8 @@
 |||guidance
 ### Correct answers: 
 
-1. `USE directory;`
-2. `SHOW TABLES;`
-3. `SELECT * FROM company_profiles;`
+`USE directory;`
+`SHOW TABLES;`
+`SELECT * FROM company_profiles;`
 
 |||

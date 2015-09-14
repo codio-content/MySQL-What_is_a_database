@@ -3,8 +3,8 @@
 |||guidance
 ### Correct answers:
 
-1. `USE people;`
-1. `SELECT name FROM names;`
-2. `SELECT city FROM basic_info LIMIT 3;`
+`USE people;`
+`SELECT name FROM names;`
+`SELECT city FROM basic_info LIMIT 3;`
 
 |||

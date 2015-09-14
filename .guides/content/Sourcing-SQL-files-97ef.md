@@ -20,4 +20,9 @@ Execute the `source-file.sql` content by typing the following command in the `my
 mysql> source source-file.sql
 ```
 
+|||info
+### I closed the file by mistake
+Don't worry, you can open the file again just by going back or forth 1 section and get to the current section again.
+|||
+
 Let's practice the `source` command by selecting only specific data with the _query operators_ in the next section.

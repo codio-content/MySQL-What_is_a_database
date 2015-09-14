@@ -3,8 +3,7 @@
 |||guidance
 ### Correct answers:
 
-1. USE people;
-2. SELECT email FROM basic_info
-WHERE email='sed.pede@nisi.com';
+`USE people;`
+`SELECT email FROM basic_info WHERE email='sed.pede@nisi.com';`
 
 |||
