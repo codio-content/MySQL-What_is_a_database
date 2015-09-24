@@ -4,7 +4,7 @@ A database is an organized collection of stored data that can be queried and mod
 
 ## What is SQL
 
-_SQL_, often pronounced _SEQUEL_ stands for Structured Query Language and is a _special-purpose programming language_ for manipulating data in a _relational database management system_. With the language you can define the structure of data and how to Create, Read, Update and Delete data. Data is stored as rows in tables for example a __profiles__ table will store all user profiles each on their own row. Rows can be related to data in rows in other tables for example individual profiles can appear in mutliple friend lists. 
+_SQL_, often pronounced _SEQUEL_ stands for Structured Query Language and is a special-purpose language for manipulating data in a _relational database management system_. With the language you can define the structure of data and how to Create, Read, Update and Delete data. Data is stored as rows in tables for example a __profiles__ table will store all user profiles each on their own row. Rows can be related to data in rows in other tables for example individual profiles can appear in mutliple friend lists. 
 
 ### Relational databases
 
