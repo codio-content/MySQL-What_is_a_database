@@ -13,8 +13,6 @@ Let's _SELECT_ from the _names_ table only the _surname_ that is equal to the te
 
 USE people;
 
-USE people;
-
 SELECT * FROM names 
 WHERE surname = 'Steele';
 ```

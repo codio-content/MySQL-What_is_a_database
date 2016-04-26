@@ -1,0 +1,13 @@
+[
+ {
+  "taskId": "test-3574336689",
+  "points": 0,
+  "results": [
+   {
+    "code": 1,
+    "output": "Fail to retrieve queries from /home/codio/workspace/sql-1-1/sql-1-1.sql file. File is empty.",
+    "timestamp": 1443007943089
+   }
+  ]
+ }
+]
