@@ -9,5 +9,23 @@
     "timestamp": 1443007943089
    }
   ]
+ },
+ {
+  "taskId": "multiple-choice-1735957228",
+  "points": 1,
+  "state": {
+   "active": "55e2362b80f8e32518cc9ab4"
+  },
+  "results": [
+   {
+    "current": [
+     "55e2362b80f8e32518cc9ab4"
+    ],
+    "right": [
+     "55e2362b80f8e32518cc9ab4"
+    ],
+    "timestamp": 1466524817603
+   }
+  ]
  }
 ]
