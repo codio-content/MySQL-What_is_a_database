@@ -9,7 +9,7 @@ All of Codio's content is now in the public domain. We also encourage you to cre
 For full details on how to collaborate on teaching content, please refer to the [Codio docmentation](https://codio.com/docs/content/authoring/collaboration).
 
 ## About this Unit
-If you are reading this from within Codio, the public GitHub repository for this unit can be found [here](https://github.com/codio-content/MySQL-What_is_a_database).
+If you are reading this from within Codio, the public GitHub repository for this unit can be found at [https://github.com/codio-content/MySQL-What_is_a_database](https://github.com/codio-content/MySQL-What_is_a_database).
 
 # Course and Module information
 To help you find where this content is used within Codio Courses, the following sections describe where you can find the published content within Codio and the equivalent GitHub repository location.
