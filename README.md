@@ -16,7 +16,7 @@ To help you find where this content is used within Codio Courses, the following 
 
 **Course**: [MySQL](https://codio.com/home/courses/560014c49363a210542e9756/?tab=modules)
 
-## Codio Unit names {ADD UNIT LINKS PLEASE}
+## Codio Unit names:
 
 1. [Personal Playground (not a tutorial)](https://codio.com/home/courses/560014c49363a210542e9756/modules/560014f79363a210542e9757/units/5630f41ef1dfe6a134235357/)
 1. [What is a database](https://codio.com/home/courses/560014c49363a210542e9756/modules/560014f79363a210542e9757/units/56028acccad2d38219f84f1e/)
@@ -27,7 +27,7 @@ To help you find where this content is used within Codio Courses, the following 
 1. [Aggregate functions](https://codio.com/home/courses/560014c49363a210542e9756/modules/560014f79363a210542e9757/units/5630e192f1dfe6a134235338/) 
 
 
-## GitHub repository names {ADD LINKS PLEASE}
+## GitHub repository names:
 
 1. [MySQL-Playground](https://github.com/codio-content/MySQL_Playground)
 1. [MySQL-What_is_a_database](https://github.com/codio-content/MySQL-What_is_a_database)
