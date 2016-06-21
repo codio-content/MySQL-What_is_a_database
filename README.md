@@ -14,13 +14,13 @@ To contribute to this Codio Project you should be familiar with [Git](https://gi
 
 ## Table of Contents for Git Projects
 
-1. Playground
-1. Introduction
-1. Creating
-1. Updating
-1. Deleting 
-1. Constraints
-1. Aggregation 
+1. MySQL-Playground
+1. MySQL-What_is_a_database
+1. MySQL-Creating_databases_and_inserting_data
+1. MySQL-Altering_existing_databases_and_updating_data
+1. MySQL-Deleting_databases-_dropping_tables_and_deleting_data
+1. MySQL-Constraints_and_Keys
+1. MySQL-Aggregate_functions
 
 ## Table of Contents for Codio Units
 
