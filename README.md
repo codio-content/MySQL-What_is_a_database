@@ -1,16 +1,9 @@
+# Open Source and Collaboration
+This content is open sourced and the public repository can be found [here](https://github.com/codio-content/MySQL-What_is_a_database)
 
-# MySQL Introduction
+You are free to copy it and use it as the basis for your own teaching content. You can also open source your own projects that you created from scratch. Best of all, you can actively collaborate with other authors on the exact same project and collectively improve it over time.
 
-To contribute to this Codio Project you should be familiar with [Git](https://git-scm.com/docs) and the [GitHub workflow](https://guides.github.com/introduction/flow/):
-
-1. [Fork](https://help.github.com/articles/fork-a-repo/) this Git repo.
-1. Create a new project using the project's [Codio Stack](https://codio.com/home/stacks/5981b5c1-1685-4634-8d91-b3655ad703b2/?tab=details).
-1. Clone your forked Git repo into your new Codio project.
-1. Make your code edits.
-1. Commit your edits to your Git repo.
-1. Merge any updates from the original Codio repo's `master` branch if there are any.
-1. Send a [pull request](https://help.github.com/articles/using-pull-requests/) to the original Codio repo's `pull-requests` branch.
-1. We will review your edits and either accept them or provide feedback. :)
+For full details on creating and managing open sourced content, please [refer to our documentation](https://codio.com/docs/content/authoring/collaboration).
 
 ## Table of Contents for Git Projects
 
