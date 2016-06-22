@@ -8,14 +8,15 @@ All of Codio's content is now in the public domain. We also encourage you to cre
 ## Learning how to collaborate
 For full details on how to collaborate on teaching content, please refer to the [Codio documentation](https://codio.com/docs/content/authoring/collaboration/).
 
+## Useful Information
 
-|  | **Useful Information** |
+|  |  |
 | :------------------ | :--- |
-| **Public GitHub repository** | The public GitHub repository for this unit can be found at [https://github.com/codio-content/MySQL-What_is_a_database](https://github.com/codio-content/MySQL-What_is_a_database).| 
-| **Codio Course Information** | This unit is published in the [MySQL](https://codio.com/home/courses/560014c49363a210542e9756/?tab=modules) course. |
-| **Stack Information** | This unit uses the [StackName]() that you should use if you create a new project from this repo.  |
+| **Public GitHub repository:** | The public GitHub repository for this unit can be found at [https://github.com/codio-content/MySQL-What_is_a_database](https://github.com/codio-content/MySQL-What_is_a_database).| 
+| **Codio Course Information:** | This unit is published in the [MySQL](https://codio.com/home/courses/560014c49363a210542e9756/?tab=modules) course. |
+| **Stack Information:** | This unit uses the [StackName]() that you should use if you create a new project from this repo.  |
 
-|Codio Unit Names  | GitHub Repository Names  | 
+|**Codio Unit Names**  | **GitHub Repository Names**  | 
 | :--- | :--- |
 | [Personal Playground (not a tutorial)](https://codio.com/home/courses/560014c49363a210542e9756/modules/560014f79363a210542e9757/units/5630f41ef1dfe6a134235357/) |[MySQL-Playground](https://github.com/codio-content/MySQL_Playground)|
 | [What is a database](https://codio.com/home/courses/560014c49363a210542e9756/modules/560014f79363a210542e9757/units/56028acccad2d38219f84f1e/)  | [MySQL-What_is_a_database](https://github.com/codio-content/MySQL-What_is_a_database)  |
