@@ -10,7 +10,7 @@ For full details on how to collaborate on teaching content, please refer to the 
 
 
 |  | **Useful Information** |
-| :------------------ | --- |
+| :------------------ | :--- |
 | **Public GitHub repository** | The public GitHub repository for this unit can be found at [https://github.com/codio-content/MySQL-What_is_a_database](https://github.com/codio-content/MySQL-What_is_a_database).| 
 | **Codio Course Information** | This unit is published in the [MySQL](https://codio.com/home/courses/560014c49363a210542e9756/?tab=modules) course. |
 | **Stack Information** | This unit uses the [StackName]() that you should use if you create a new project from this repo.  |
