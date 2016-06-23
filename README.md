@@ -3,11 +3,8 @@
 
 - The public GitHub repository for this unit can be found at [https://github.com/codio-content/MySQL-What_is_a_database](https://github.com/codio-content/MySQL-What_is_a_database).|
 
-- For more information on this unit and other units in the MySQL Course, click [here](https://github.com/codio-content/Information/blob/3422c6f18beb74714e72dca1d67a0b53f3eddd91/mysqlcourse.md).
+- For more information on other Codio Courses, how you can collaborate and other useful information go to our [Information Wiki](https://github.com/codio-content/Information/wiki).
 
-- For more information on collaboration, click [here](https://github.com/codio-content/Information/blob/3422c6f18beb74714e72dca1d67a0b53f3eddd91/collaboration.md).
-
-- For more information on other Codio Courses, click [here](https://github.com/codio-content/Information/blob/3422c6f18beb74714e72dca1d67a0b53f3eddd91/codiocourses.md).
 
 
 ## License
