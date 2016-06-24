@@ -1,9 +1,0 @@
-#!/bin/bash
-# chmod files
-
-arg=$1
-
-file_count=$(ls /home/codio/workspace/.guides/sqltests.js/*.js | wc -l)
-for (( i = 1; i <= $file_count; i++ )); do                             
-  find /home/codio/workspace/.guides/sqltests.js/ -type f -name "sql-$arg-$i.js" -exec chmod +x "/home/codio/workspace/.guides/sqltests.js/sql-$arg-$i.js" {} \;
-done

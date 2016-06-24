@@ -44,7 +44,7 @@
    },
    "name": "SELECT operators",
    "instructions": "Complement your SQL `SELECT` understanding by writing the following statements in the `sql-1-8.sql` file:\n\n1. Use the _directory_ database\n1. Select all the `company_profiles` records where `company_name` is equal to `Lorem Ipsum Institute` or `Et LLP`;\n7. Finally, select only the `id` and `phone_num` attributes from the `company_profiles` table and get the records where the `id` is between 40 and 60\n\n---\nOnce you have completed these tasks, press the _Check It!_ button to have your solution assessed.\n",
-   "command": "node ~/workspace/.guides/sqltests.js/sql-1-8.js",
+   "command": "node .guides/sqltests.js/sql-1-8.js",
    "points": 1
   }
  },
@@ -60,7 +60,7 @@
    },
    "name": "Limiting queries",
    "instructions": "A `sql-1-7.sql` file has been created and opened for you.\n\nWrite each of the following SQL statements in a new line:\n\n1. Use the `people` database\n1. Display the _name_ column from the `names` table.\n2. Display only 3 records of the _city_ column from the `basic_info` table.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
-   "command": "node ~/workspace/.guides/sqltests.js/sql-1-7.js",
+   "command": "node .guides/sqltests.js/sql-1-7.js",
    "points": 1
   }
  },
@@ -76,7 +76,7 @@
    },
    "name": "Sourcing SQL files",
    "instructions": "A `sql-1-3.sql` file has been created and opened for you.\n\nWrite each of the following SQL statements in a new line:\n\n1. _Use_ the `people` database\n2. _Select_ from the `basic_info` table the _email_ column \n_Where_ the email column is equal to: 'sed.pede@nisi.com'\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
-   "command": "node ~/workspace/.guides/sqltests.js/sql-1-3.js",
+   "command": "node .guides/sqltests.js/sql-1-3.js",
    "points": 1
   }
  },
@@ -92,7 +92,7 @@
    },
    "name": "SQL file statements",
    "instructions": "A `sql-1-9.sql` file has been created and opened for you.\n\nWrite the following query in the `sql-1-9.sql` file (write each task in a new line):\n\n1. Use the `directory` database\n2. Display the available tables\n3. Select all the records from the `company_profiles` table that match the _id_: 27\n3. Select only the _id_ and *phone_num* columns of the `company_profiles` table and sort them by _id_ in _ascending_ order\n4. Select only the _id_ and *company_name* columns from the `company_profiles` where the _id_ is greater or equal to 40. Limit the results to 5 rows.\n\n---\nOnce you have completed these tasks, press the _Check It!_ button to have your solution assessed. ",
-   "command": "node ~/workspace/.guides/sqltests.js/sql-1-9.js",
+   "command": "node .guides/sqltests.js/sql-1-9.js",
    "points": 1
   }
  },
@@ -100,15 +100,10 @@
   "type": "test",
   "taskId": "test-3574336689",
   "source": {
-   "showName": true,
-   "answers": [],
-   "tokens": {
-    "blank": [],
-    "text": []
-   },
    "name": "Selecting table data",
+   "showName": true,
    "instructions": "A `sql-1-1.sql` file has been created and opened for you.\n\nWrite each of the following SQL statements in a new line:\n\n1. List the available databases\n3. Change to the `people` database\n2. List the available tables\n4. Select all the records from the `basic_info` table\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
-   "command": "node ~/workspace/.guides/sqltests.js/sql-1-1.js",
+   "command": "node .guides/sqltests.js/sql-1-1.js",
    "points": 1
   }
  },
@@ -124,7 +119,7 @@
    },
    "name": "SELECT clauses",
    "instructions": "Complement your SQL `SELECT` understanding by writing the following statements in the `sql-1-6.sql` file:\n\n1. Use the _directory_ database\n1. Select all the records from the `company_profiles` table and limit them to 5 rows only\n5. Select only the `id` and the `company_name` columns from the `company_profiles` table and sort them by `id` in descending order\n\n---\nOnce you have completed these tasks, press the _Check It!_ button to have your solution assessed.\n\n",
-   "command": "node ~/workspace/.guides/sqltests.js/sql-1-6.js",
+   "command": "node .guides/sqltests.js/sql-1-6.js",
    "points": 1
   }
  },
@@ -140,7 +135,7 @@
    },
    "name": "Ordering queries",
    "instructions": "A `sql-1-2.sql` file has been created and opened for you.\n\nWrite each of the following SQL statements in a new line:\n\n1. Use the `people` database\n1. Display the _surname_ column from the `names` table.\n3. Query only the _name_ and _id_ columns of the `names` table and sort the results by _id_ in descending order.\n\n---\nOnce you have completed these tasks, press the _Check It!_ button to have your solution assessed.",
-   "command": "node ~/workspace/.guides/sqltests.js/sql-1-2.js",
+   "command": "node .guides/sqltests.js/sql-1-2.js",
    "points": 1
   }
  },
@@ -156,7 +151,7 @@
    },
    "name": "Query operators",
    "instructions": "A `sql-1-4.sql` file has been created and opened for you.\n\nWrite the following SQL statement:\n\n1.  _Select_ all the records from the `basic_info` table\n_Where_ birthdays are less or equal to 2016\nGet the records only if the _id_ is _between_ 1 and 5\nOrder by _id_ in a descending order\n\n---\nOnce you have completed these tasks, press the _Check It!_ button to have your solution assessed.",
-   "command": "node ~/workspace/.guides/sqltests.js/sql-1-4.js",
+   "command": "node .guides/sqltests.js/sql-1-4.js",
    "points": 1
   }
  },
@@ -172,7 +167,7 @@
    },
    "name": "SQL SELECT",
    "instructions": "A new `directory` database has been created. \n\nEvaluate your recent SQL understanding by writing the following statements in the `sql-1-5.sql` file:\n\n1. Switch to the `directory` database\n2. Display the available tables of the `directory` database\n3. Query all the records from the `company_profiles` table\n\n---\nOnce you have completed these tasks, press the _Check It!_ button to have your solution assessed.\n\n\n",
-   "command": "node ~/workspace/.guides/sqltests.js/sql-1-5.js",
+   "command": "node .guides/sqltests.js/sql-1-5.js",
    "points": 1
   }
  }

@@ -3,14 +3,15 @@ We've created a DATABASE called: `people`
 List the existing databases in your current `mysql>` prompt by executing `SHOW DATABASES;` to then see:
 
 ```
-+--------------------+ 
-| Database           | 
-+--------------------+ 
++--------------------+
+| Database           |
++--------------------+
 | information_schema |
 | directory          |
-| people             | 
-| test               | 
-+--------------------+ 
+| mysql              |
+| people             |
+| performance_schema |
++--------------------+
 3 rows in set (0.00 sec)
 ```
 
