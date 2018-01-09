@@ -8,7 +8,7 @@ Don't worry, by the end of this unit you'll grasp these topics like a pro.
 
 ### Relational databases
 
-_Relational database mangament systems_ or RDBMSs for short, are a common choice for the __storage of information__ used for:
+_Relational database management systems_ or RDBMSs for short, are a common choice for the __storage of information__ used for:
 
 - Financial records
 - Manufacturing and logistical information
