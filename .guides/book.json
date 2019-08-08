@@ -1,0 +1,207 @@
+{
+ "name": "MySQL-What_is_a_database",
+ "children": [
+  {
+   "title": "Introduction to Databases",
+   "id": "7956c5b1-796f-be15-8c6e-9f8fd014c7d",
+   "pageId": "7956c5b1-796f-be15-8c6e-9f8fd014c7d",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "The relational model",
+     "id": "c4f5a2b5-9df5-a09-f153-666ccccce3d5",
+     "pageId": "c4f5a2b5-9df5-a09-f153-666ccccce3d5",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "769a4f67-68e3-3962-90f7-e3eb58db4ece",
+     "pageId": "769a4f67-68e3-3962-90f7-e3eb58db4ece",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "MySQL",
+   "id": "39698e54-2fe3-ccb2-ada8-c6807ac61bb0",
+   "pageId": "39698e54-2fe3-ccb2-ada8-c6807ac61bb0",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "MySQL server and client",
+     "id": "e09f199-c38a-c1bc-dc93-2e7677636b52",
+     "pageId": "e09f199-c38a-c1bc-dc93-2e7677636b52",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Listing databases",
+   "id": "64a7f373-291a-826-efa3-8c47f26fac49",
+   "pageId": "64a7f373-291a-826-efa3-8c47f26fac49",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Displaying databases",
+     "id": "e4a173d1-28b4-d535-25f8-5b388c824f4",
+     "pageId": "e4a173d1-28b4-d535-25f8-5b388c824f4",
+     "type": "page"
+    },
+    {
+     "title": "MySQL hints",
+     "id": "d4621374-4e46-cb6e-92cc-139f10b5b12c",
+     "pageId": "d4621374-4e46-cb6e-92cc-139f10b5b12c",
+     "type": "page"
+    },
+    {
+     "title": "Displaying data",
+     "id": "51f98e08-4dfd-d7c9-c3d2-cb99879d6b79",
+     "pageId": "51f98e08-4dfd-d7c9-c3d2-cb99879d6b79",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "b6798a7e-2857-457c-ce61-46cb2601ade8",
+     "pageId": "b6798a7e-2857-457c-ce61-46cb2601ade8",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Selecting columns",
+   "id": "4e4e2b03-62d5-c15b-124a-4cfe8e2c3416",
+   "pageId": "4e4e2b03-62d5-c15b-124a-4cfe8e2c3416",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Limiting queries",
+   "id": "5a2224fe-71f0-9f4d-a06e-2f17b205e91a",
+   "pageId": "5a2224fe-71f0-9f4d-a06e-2f17b205e91a",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Challenge",
+     "id": "a75841a-d36-7255-6228-3ca4179c8ad",
+     "pageId": "a75841a-d36-7255-6228-3ca4179c8ad",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Ordering table queries",
+   "id": "c0f654c6-c62a-b95e-90e8-e6af210f8de9",
+   "pageId": "c0f654c6-c62a-b95e-90e8-e6af210f8de9",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Challenge",
+     "id": "92ca7698-adb2-6f1c-95d1-a45fc409df16",
+     "pageId": "92ca7698-adb2-6f1c-95d1-a45fc409df16",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Sourcing SQL files",
+   "id": "97efe607-eace-77cc-8241-dee3fb5f3a23",
+   "pageId": "97efe607-eace-77cc-8241-dee3fb5f3a23",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Query operators",
+   "id": "49fa331b-6bf4-28e7-daf5-1e86fdd13e33",
+   "pageId": "49fa331b-6bf4-28e7-daf5-1e86fdd13e33",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Query operators table",
+     "id": "c3aad0f8-d064-1c75-719b-3a6e4e852b39",
+     "pageId": "c3aad0f8-d064-1c75-719b-3a6e4e852b39",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Where clause",
+   "id": "eb557ecf-57b0-f083-4269-814995a319b",
+   "pageId": "eb557ecf-57b0-f083-4269-814995a319b",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Challenge",
+     "id": "d7d267f0-8480-b98-afc4-2168fb0be9ea",
+     "pageId": "d7d267f0-8480-b98-afc4-2168fb0be9ea",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Getting help",
+   "id": "76619983-e8db-1a55-ce96-cfb223518bf2",
+   "pageId": "76619983-e8db-1a55-ce96-cfb223518bf2",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "AND, OR operators",
+   "id": "37551cf3-f1a3-6e00-867a-42afa631e166",
+   "pageId": "37551cf3-f1a3-6e00-867a-42afa631e166",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "SQL examples",
+   "id": "22f8f581-cd0c-a6b2-84e5-e64220eba653",
+   "pageId": "22f8f581-cd0c-a6b2-84e5-e64220eba653",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "SQL examples",
+     "id": "10c4cdde-2e00-fca3-2cb1-df8f35bd2b7",
+     "pageId": "10c4cdde-2e00-fca3-2cb1-df8f35bd2b7",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "e722a47b-8e70-160-fe70-f48054ff82d6",
+     "pageId": "e722a47b-8e70-160-fe70-f48054ff82d6",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Final challenges",
+   "id": "4f3de2d4-84e4-b05f-e761-2233e392be24",
+   "pageId": "4f3de2d4-84e4-b05f-e761-2233e392be24",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Challenge",
+     "id": "cccfaa7b-1b32-8a63-9005-663863afcb51",
+     "pageId": "cccfaa7b-1b32-8a63-9005-663863afcb51",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "33630f3-7b4c-d01f-93d-df78d81a34a6",
+     "pageId": "33630f3-7b4c-d01f-93d-df78d81a34a6",
+     "type": "page"
+    },
+    {
+     "title": "Challenge",
+     "id": "7b1f6915-6e5-b14f-cbd7-9129cdb2366b",
+     "pageId": "7b1f6915-6e5-b14f-cbd7-9129cdb2366b",
+     "type": "page"
+    },
+    {
+     "title": "That's all folks",
+     "id": "dbe1139e-de62-5f81-8c9c-2d4ef2331060",
+     "pageId": "dbe1139e-de62-5f81-8c9c-2d4ef2331060",
+     "type": "page"
+    }
+   ]
+  }
+ ]
+}
