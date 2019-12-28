@@ -1,6 +1,6 @@
 For the next set of examples, try doing a `source` on each of them by copying and pasting the code in the `sql-example.sql` file we created for you.
 
-Select the _email_ column of the `basic_info` table and sort the results by email in _ascending_ order (remember that the `people` database must be in `USE`):
+Select the _email_ column of the `basic_info` table and sort the results by email in _descending_ order (remember that the `people` database must be in `USE` and ORDER BY keyword sorts the records in ascending order by default except few exception cases):
 
 ```
 SELECT email FROM basic_info
