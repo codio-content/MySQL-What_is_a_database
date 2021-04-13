@@ -1,0 +1,32 @@
+[
+ {
+  "taskId": "test-3574336689",
+  "points": 0,
+  "results": [
+   {
+    "guidance": null,
+    "format": null,
+    "code": 1,
+    "output": "Fail to retrieve queries from /home/codio/workspace/sql-1-1/sql-1-1.sql file. File is empty.",
+    "timestamp": "2021-04-13T15:29:47.677Z",
+    "state": "fail"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "code": 0,
+    "output": "Well done!",
+    "timestamp": "2021-04-13T15:29:41.108Z",
+    "state": "pass"
+   },
+   {
+    "guidance": null,
+    "format": null,
+    "code": 1,
+    "output": "Fail to retrieve queries from /home/codio/workspace/sql-1-1/sql-1-1.sql file. File is empty.",
+    "timestamp": "2021-04-13T15:29:30.498Z",
+    "state": "fail"
+   }
+  ]
+ }
+]

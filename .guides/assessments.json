@@ -1,0 +1,234 @@
+[{
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1735957228",
+  "source": {
+    "name": "Relational databases",
+    "instructions": "Please select the correct answer and _Check it!_ to have your answer assessed. If you are wrong, you will see the correct answer highlighted:\n\n### Relational databases are organised in what kind of structure?",
+    "points": 1,
+    "incorrectPoints": 0,
+    "multipleResponse": false,
+    "tokens": {
+      "text": [],
+      "blank": []
+    },
+    "answers": [{
+      "answer": "JSON documents",
+      "correct": false,
+      "_id": "55e2362b80f8e32518cc9ab6"
+    }, {
+      "answer": "Network like information blocks",
+      "correct": false,
+      "_id": "55e2362b80f8e32518cc9ab5"
+    }, {
+      "correct": true,
+      "answer": "Tables and rows",
+      "_id": "55e2362b80f8e32518cc9ab4"
+    }],
+    "oneTimeTest": false,
+    "sequence": [],
+    "showName": true
+  },
+  "section": {
+    "position": 2,
+    "title": "Challenge"
+  },
+  "id": "577a3640df04471314ec5d6e"
+}, {
+  "type": "test",
+  "taskId": "test-1820944031",
+  "source": {
+    "name": "SELECT operators",
+    "instructions": "Complement your SQL `SELECT` understanding by writing the following statements in the `sql-1-8.sql` file:\n\n1. Use the _directory_ database\n1. Select all the `company_profiles` records where `company_name` is equal to `Lorem Ipsum Institute` or `Et LLP`;\n7. Finally, select only the `id` and `phone_num` attributes from the `company_profiles` table and get the records where the `id` is between 40 and 60\n\n---\nOnce you have completed these tasks, press the _Check It!_ button to have your solution assessed.\n",
+    "command": "node --no-warnings .guides/sqltests.js/sql-1-8.js",
+    "points": 1,
+    "tokens": {
+      "text": [],
+      "blank": []
+    },
+    "answers": [],
+    "oneTimeTest": false,
+    "sequence": [],
+    "showName": true
+  },
+  "section": {
+    "position": 27,
+    "title": "Challenge"
+  },
+  "id": "577a3640df04471314ec5d6f"
+}, {
+  "type": "test",
+  "taskId": "test-2277622674",
+  "source": {
+    "name": "Limiting queries",
+    "instructions": "A `sql-1-7.sql` file has been created and opened for you.\n\nWrite each of the following SQL statements in a new line:\n\n1. Use the `people` database\n1. Display the _name_ column from the `names` table.\n2. Display only 3 records of the _city_ column from the `basic_info` table.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+    "command": "node --no-warnings .guides/sqltests.js/sql-1-7.js",
+    "points": 1,
+    "tokens": {
+      "text": [],
+      "blank": []
+    },
+    "answers": [],
+    "oneTimeTest": false,
+    "sequence": [],
+    "showName": true
+  },
+  "section": {
+    "position": 12,
+    "title": "Challenge"
+  },
+  "id": "577a3640df04471314ec5d70"
+}, {
+  "type": "test",
+  "taskId": "test-3027502085",
+  "source": {
+    "name": "Sourcing SQL files",
+    "instructions": "A `sql-1-3.sql` file has been created and opened for you.\n\nWrite each of the following SQL statements in a new line:\n\n1. _Use_ the `people` database\n2. _Select_ from the `basic_info` table the _email_ column \n_Where_ the email column is equal to: 'sed.pede@nisi.com'\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+    "command": "node --no-warnings .guides/sqltests.js/sql-1-3.js",
+    "points": 1,
+    "tokens": {
+      "text": [],
+      "blank": []
+    },
+    "answers": [],
+    "oneTimeTest": false,
+    "sequence": [],
+    "showName": true
+  },
+  "section": {
+    "position": 19,
+    "title": "Challenge"
+  },
+  "id": "577a3640df04471314ec5d71"
+}, {
+  "type": "test",
+  "taskId": "test-3292589540",
+  "source": {
+    "name": "SQL file statements",
+    "instructions": "A `sql-1-9.sql` file has been created and opened for you.\n\nWrite the following query in the `sql-1-9.sql` file (write each task in a new line):\n\n1. Use the `directory` database\n2. Display the available tables\n3. Select all the records from the `company_profiles` table that match the _id_: 27\n3. Select only the _id_ and *phone_num* columns of the `company_profiles` table and sort them by _id_ in _ascending_ order\n4. Select only the _id_ and *company_name* columns from the `company_profiles` where the _id_ is greater or equal to 40. Limit the results to 5 rows.\n\n---\nOnce you have completed these tasks, press the _Check It!_ button to have your solution assessed. ",
+    "command": "node --no-warnings .guides/sqltests.js/sql-1-9.js",
+    "points": 1,
+    "tokens": {
+      "text": [],
+      "blank": []
+    },
+    "answers": [],
+    "oneTimeTest": false,
+    "sequence": [],
+    "showName": true
+  },
+  "section": {
+    "position": 28,
+    "title": "Challenge"
+  },
+  "id": "577a3640df04471314ec5d72"
+}, {
+  "type": "test",
+  "taskId": "test-3574336689",
+  "source": {
+    "name": "Selecting table data",
+    "instructions": "A `sql-1-1.sql` file has been created and opened for you.\n\nWrite each of the following SQL statements in a new line:\n\n1. List the available databases\n3. Change to the `people` database\n2. List the available tables\n4. Select all the records from the `basic_info` table\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+    "command": "node --no-warnings .guides/sqltests.js/sql-1-1.js",
+    "points": 1,
+    "tokens": {
+      "text": [],
+      "blank": []
+    },
+    "answers": [],
+    "oneTimeTest": false,
+    "sequence": [],
+    "showName": true
+  },
+  "section": {
+    "position": 9,
+    "title": "Challenge"
+  },
+  "id": "577a3640df04471314ec5d73"
+}, {
+  "type": "test",
+  "taskId": "test-3965937864",
+  "source": {
+    "name": "SELECT clauses",
+    "instructions": "Complement your SQL `SELECT` understanding by writing the following statements in the `sql-1-6.sql` file:\n\n1. Use the _directory_ database\n1. Select all the records from the `company_profiles` table and limit them to 5 rows only\n5. Select only the `id` and the `company_name` columns from the `company_profiles` table and sort them by `id` in descending order\n\n---\nOnce you have completed these tasks, press the _Check It!_ button to have your solution assessed.\n\n",
+    "command": "node --no-warnings .guides/sqltests.js/sql-1-6.js",
+    "points": 1,
+    "tokens": {
+      "text": [],
+      "blank": []
+    },
+    "answers": [],
+    "oneTimeTest": false,
+    "sequence": [],
+    "showName": true
+  },
+  "section": {
+    "position": 26,
+    "title": "Challenge"
+  },
+  "id": "577a3640df04471314ec5d74"
+}, {
+  "type": "test",
+  "taskId": "test-4074605942",
+  "source": {
+    "name": "Ordering queries",
+    "instructions": "A `sql-1-2.sql` file has been created and opened for you.\n\nWrite each of the following SQL statements in a new line:\n\n1. Use the `people` database\n1. Display the _surname_ column from the `names` table.\n3. Query only the _name_ and _id_ columns of the `names` table and sort the results by _id_ in descending order.\n\n---\nOnce you have completed these tasks, press the _Check It!_ button to have your solution assessed.",
+    "command": "node --no-warnings .guides/sqltests.js/sql-1-2.js",
+    "points": 1,
+    "tokens": {
+      "text": [],
+      "blank": []
+    },
+    "answers": [],
+    "oneTimeTest": false,
+    "sequence": [],
+    "showName": true
+  },
+  "section": {
+    "position": 14,
+    "title": "Challenge"
+  },
+  "id": "577a3640df04471314ec5d75"
+}, {
+  "type": "test",
+  "taskId": "test-480230319",
+  "source": {
+    "name": "Query operators",
+    "instructions": "A `sql-1-4.sql` file has been created and opened for you.\n\nWrite the following SQL statement:\n\n1.  _Select_ all the records from the `basic_info` table\n_Where_ birthdays are less or equal to 2016\nGet the records only if the _id_ is _between_ 1 and 5\nOrder by _id_ in a descending order\n\n---\nOnce you have completed these tasks, press the _Check It!_ button to have your solution assessed.",
+    "command": "node --no-warnings .guides/sqltests.js/sql-1-4.js",
+    "points": 1,
+    "tokens": {
+      "text": [],
+      "blank": []
+    },
+    "answers": [],
+    "oneTimeTest": false,
+    "sequence": [],
+    "showName": true
+  },
+  "section": {
+    "position": 24,
+    "title": "Challenge"
+  },
+  "id": "577a3640df04471314ec5d76"
+}, {
+  "type": "test",
+  "taskId": "test-783857216",
+  "source": {
+    "name": "SQL SELECT",
+    "instructions": "A new `directory` database has been created. \n\nEvaluate your recent SQL understanding by writing the following statements in the `sql-1-5.sql` file:\n\n1. Switch to the `directory` database\n2. Display the available tables of the `directory` database\n3. Query all the records from the `company_profiles` table\n\n---\nOnce you have completed these tasks, press the _Check It!_ button to have your solution assessed.\n\n\n",
+    "command": "node --no-warnings .guides/sqltests.js/sql-1-5.js",
+    "points": 1,
+    "tokens": {
+      "text": [],
+      "blank": []
+    },
+    "answers": [],
+    "oneTimeTest": false,
+    "sequence": [],
+    "showName": true
+  },
+  "section": {
+    "position": 25,
+    "title": "Final challenges"
+  },
+  "id": "577a3640df04471314ec5d77"
+}]
